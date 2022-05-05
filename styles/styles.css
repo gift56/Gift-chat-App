@@ -1057,9 +1057,1432 @@ body {
   background-color: #ecf0f1;
 }
 
+.loader .holder {
+  position: relative;
+}
+
+.loader h1 {
+  -webkit-transform: translateY(50px) translateX(154px);
+          transform: translateY(50px) translateX(154px);
+  color: #ffae18;
+}
+
+.loader .logo {
+  position: absolute;
+  top: 150px;
+  width: 50px;
+  left: 215px;
+}
+
+.completed {
+  -webkit-animation: complete 1s forwards;
+          animation: complete 1s forwards;
+}
+
+@-webkit-keyframes complete {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes complete {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.login {
+  background: #0d2d42;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 786px) {
+  .login {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 2em;
+  }
+}
+
+.login .about {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .about .logos {
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 1400px) {
+  .login .about .logos {
+    width: 30%;
+  }
+}
+
+.login .form {
+  border: 2px solid #ffffff;
+  width: 95%;
+}
+
+@media screen and (min-width: 786px) {
+  .login .form {
+    max-width: 100%;
+  }
+}
+
+.login .form .h4 {
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 786px) {
+  .login .form .h4 {
+    font-size: 40px;
+  }
+}
+
+.login .form .label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 786px) {
+  .login .form .label {
+    font-size: 20px;
+  }
+}
+
+.login .form .user .emailuser {
+  position: relative;
+}
+
+.login .form .user .emailuser .myusericon {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  font-size: 16px;
+}
+
+@media screen and (min-width: 786px) {
+  .login .form .user .emailuser .myusericon {
+    top: 15px;
+  }
+}
+
+.login .form .user .emailuser .firstsigns {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.login .form .loginbtn {
+  border: 2px solid #ffae18;
+  margin-bottom: 20px;
+  background-color: #ffae18;
+  padding: 10px;
+  height: 41px;
+}
+
+.login .form .loginbtn:hover {
+  cursor: pointer;
+  background-color: #d79316;
+  border: 2px solid #d79316;
+}
+
+@media screen and (min-width: 700px) {
+  .login .form .loginbtn {
+    width: 90% !important;
+    font-size: 20px;
+  }
+}
+
+.login .form .forget {
+  margin: 20px 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.login .form .forget a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.login .form .sign-up {
+  margin-bottom: 40px;
+}
+
+.login .form .sign-up .option {
+  color: #ffffff;
+  font-size: 18px;
+  margin-bottom: 18px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 2vw;
+}
+
+@media screen and (min-width: 786px) {
+  .login .form .sign-up .option {
+    margin-right: 0;
+  }
+}
+
+.login .form .sign-up .span a {
+  margin-bottom: 0;
+  border: 1px solid #ffffff;
+  padding: 8px;
+  height: 54px;
+}
+
+.login .form .sign-up .span a:first-child {
+  margin-bottom: 3px;
+}
+
+.login .form .sign-up .span .fa-google {
+  font-size: 32px;
+}
+
+@media screen and (min-width: 1100px) {
+  .login .form .sign-up .span {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+  }
+}
+
+.sign-up-form {
+  background: #0d2d42;
+}
+
+.sign-up-form .signIn {
+  background-color: #316d95;
+  padding: 10px 29px;
+}
+
+@media screen and (min-width: 786px) {
+  .sign-up-form .signIn {
+    padding: 0 40px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+  }
+}
+
+.sign-up-form .signIn .loginBack {
+  font-size: 14px;
+}
+
+@media screen and (min-width: 786px) {
+  .sign-up-form .signIn .loginBack {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 524px) {
+  .sign-up-form .signIn .logoprime .logotext {
+    display: block;
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 764px) {
+  .sign-up-form .signIn .logoprime .logotext {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sign-up-form .signIn .logoprime .logotext {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .sign-up-form .signIn .myForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .sign-up-form .signIn .myForm .usermails label {
+    font-size: 20px;
+  }
+}
+
+.sign-up-form .signIn .myForm .usermails .usermail {
+  position: relative;
+}
+
+.sign-up-form .signIn .myForm .usermails .usermail input {
+  background-color: #ffffff;
+  height: 28px;
+  width: 170px;
+  border: 2px solid #ffffff;
+}
+
+.sign-up-form .signIn .myForm .usermails .usermail input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+.sign-up-form .signIn .myForm .usermails .usermail input:-ms-input-placeholder {
+  color: #000000;
+}
+
+.sign-up-form .signIn .myForm .usermails .usermail input::-ms-input-placeholder {
+  color: #000000;
+}
+
+.sign-up-form .signIn .myForm .usermails .usermail input::placeholder {
+  color: #000000;
+}
+
+.sign-up-form .signIn .myForm .usermails .usermail input:focus {
+  border: 2px solid #ffae18;
+  outline: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .sign-up-form .signIn .myForm .usermails .usermail input {
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+.sign-up-form .signIn .myForm .usermails .usermail .circle2 {
+  display: none;
+}
+
+@media screen and (min-width: 1300px) {
+  .sign-up-form .signIn .myForm .usermails .usermail .circle2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    visibility: hidden;
+  }
+}
+
+.sign-up-form .signIn .myForm .signup-btn button {
+  width: 58px;
+  height: 29px;
+  background-color: #ffae18;
+}
+
+@media screen and (min-width: 1200px) {
+  .sign-up-form .signIn .myForm .signup-btn button {
+    height: 40px;
+    font-size: 19px;
+    width: 70px;
+  }
+}
+
+.sign-up-form .signIn .myForm .signup-btn button:hover {
+  cursor: pointer;
+  background-color: #d79316;
+}
+
+@media screen and (min-width: 1200px) {
+  .sign-up-form .signIn .myForm .signup-btn {
+    padding: 4px;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .sign-inSection .second-form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 18px;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .sign-inSection .second-form .giphytext {
+    padding: 0 25px;
+    margin-top: 8vh;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .sign-inSection .second-form .connection {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .sign-inSection .second-form .connection {
+    width: 420px;
+  }
+}
+
+.sign-inSection .second-form .signForms {
+  border: 2px solid #ffffff;
+}
+
+@media screen and (min-width: 786px) {
+  .sign-inSection .second-form .signForms {
+    min-width: 54%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .sign-inSection .second-form .signForms {
+    min-width: 739px;
+  }
+}
+
+.sign-inSection .second-form .signForms .h3text {
+  font-size: 26px;
+}
+
+@media screen and (min-width: 600px) {
+  .sign-inSection .second-form .signForms .h3text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .sign-inSection .second-form .signForms .p {
+    font-size: 18px;
+  }
+}
+
+.sign-inSection .second-form .signForms .names {
+  line-height: 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .sign-inSection .second-form .signForms .names label {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .sign-inSection .second-form .signForms .names label {
+    font-size: 20px;
+  }
+}
+
+.sign-inSection .second-form .signForms .names input {
+  background-color: transparent;
+  border-bottom: 2px solid #ffffff;
+  height: 45px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+.sign-inSection .second-form .signForms .names input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.sign-inSection .second-form .signForms .names input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.sign-inSection .second-form .signForms .names input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.sign-inSection .second-form .signForms .names input::placeholder {
+  color: #ffffff;
+}
+
+.sign-inSection .second-form .signForms .names input:focus {
+  border: 2px solid #ffffff;
+  outline: none;
+}
+
+.sign-inSection .second-form .signForms .names .icons {
+  position: relative;
+}
+
+.sign-inSection .second-form .signForms .names .icons .valid {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 600px) {
+  .sign-inSection .second-form .signForms .birthday label {
+    font-size: 18px;
+  }
+}
+
+.sign-inSection .second-form .signForms .birthday .options {
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.sign-inSection .second-form .signForms .birthday .options #month {
+  width: 33%;
+  height: 30px;
+  padding-left: 4px;
+  cursor: pointer;
+}
+
+.sign-inSection .second-form .signForms .birthday .options #month:focus {
+  border: 2px solid #ffae18;
+  outline: none;
+}
+
+@media screen and (min-width: 600px) {
+  .sign-inSection .second-form .signForms .birthday .options #month {
+    font-size: 15px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .sign-inSection .second-form .signForms .birthday .options #month {
+    width: 39%;
+  }
+}
+
+.sign-inSection .second-form .signForms .birthday .options #date {
+  width: 22%;
+  padding-left: 4px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.sign-inSection .second-form .signForms .birthday .options #date:focus {
+  border: 2px solid #ffae18;
+  outline: none;
+}
+
+@media screen and (min-width: 600px) {
+  .sign-inSection .second-form .signForms .birthday .options #date {
+    font-size: 15px;
+    height: 40px;
+  }
+}
+
+.sign-inSection .second-form .signForms .birthday .options #year {
+  width: 40%;
+  height: 30px;
+  padding-left: 4px;
+  cursor: pointer;
+}
+
+.sign-inSection .second-form .signForms .birthday .options #year:focus {
+  border: 2px solid #ffae18;
+  outline: none;
+}
+
+@media screen and (min-width: 600px) {
+  .sign-inSection .second-form .signForms .birthday .options #year {
+    font-size: 15px;
+    height: 40px;
+  }
+}
+
+.sign-inSection .second-form .signForms .birthday .genderoptions {
+  gap: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .sign-inSection .second-form .signForms .birthday .genderoptions label {
+    font-size: 15px;
+  }
+}
+
+.sign-inSection .second-form .signForms .birthday .genderoptions .femaleRadio {
+  width: 43%;
+  padding: 6px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
+.sign-inSection .second-form .signForms .birthday .genderoptions .maleRadio {
+  width: 33%;
+  padding: 6px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.sign-inSection .second-form .signForms .birthday .genderoptions .customRadio {
+  width: 33%;
+  padding: 6px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
+.sign-inSection .second-form .signForms .birthday .btnsubmit button {
+  width: 196px;
+  height: 31px;
+  background-color: #ffae18;
+}
+
+@media screen and (min-width: 786px) {
+  .sign-inSection .second-form .signForms .birthday .btnsubmit button {
+    width: 219px;
+    height: 40px;
+  }
+}
+
+.sign-inSection .second-form .signForms .birthday .btnsubmit button:hover {
+  cursor: pointer;
+  background-color: #d79316;
+}
+
+.header {
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1111;
+}
+
+.header .navHead {
+  padding: 10px 0;
+}
+
+.header .navHead .logotext .logos {
+  width: 2.7rem;
+  aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 661px) {
+  .header .navHead .logotext .logos {
+    width: 30%;
+  }
+}
+
+.header .navHead .logotext h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 662px) {
+  .header .navHead .logotext h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.header .navHead .barIcon {
+  width: 20%;
+}
+
+.header .navHead .barIcon i {
+  font-size: 21px;
+}
+
+@media screen and (min-width: 940px) {
+  .header .navHead .barIcon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .header .navHead .searchbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 661px) {
+  .header .navHead .createpost {
+    gap: 13px;
+  }
+}
+
+main {
+  top: 5rem;
+}
+
+main .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 18vw auto 19vw;
+      grid-template-columns: 18vw auto 19vw;
+}
+
+@media screen and (max-width: 1300px) {
+  main .content {
+    -ms-grid-columns: 5rem auto 30vw;
+        grid-template-columns: 5rem auto 30vw;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  main .content {
+    -ms-grid-columns: 0 auto 5rem;
+        grid-template-columns: 0 auto 5rem;
+    gap: 0;
+  }
+}
+
+main .content .leftSide {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5.2rem;
+  right: -18rem;
+}
+
+@media screen and (max-width: 1200px) {
+  main .content .leftSide {
+    width: 5rem;
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  main .content .leftSide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    right: 0;
+    width: 100%;
+    -webkit-transform: translateY(-18px);
+            transform: translateY(-18px);
+    background-color: #ffffff;
+    max-height: 0;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+}
+
+main .content .leftSide .profile {
+  background-color: #ffffff;
+  color: #241e38;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+  main .content .leftSide .profile {
+    visibility: hidden;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  main .content .leftSide .profile {
+    display: none;
+    visibility: visible;
+    position: absolute;
+    top: 7px;
+    left: 0;
+    -webkit-box-shadow: 0 0 1rem #6b4ce6;
+            box-shadow: 0 0 1rem #6b4ce6;
+  }
+}
+
+main .content .leftSide .sideMenu {
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 939px) {
+  main .content .leftSide .sideMenu {
+    height: 100vh;
+    display: none;
+    width: 98%;
+    -webkit-transform: translateY(78px);
+            transform: translateY(78px);
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+}
+
+main .content .leftSide .sideMenu .menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  gap: 0.2rem;
+}
+
+main .content .leftSide .sideMenu .menu-item:hover {
+  background-color: #ccc;
+}
+
+main .content .leftSide .sideMenu .menu-item i {
+  position: relative;
+  color: #9e98b3;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+main .content .leftSide .sideMenu .menu-item i .countNotification {
+  background-color: #fb5151;
+  font-size: 0.5rem;
+  border-radius: 0.8rem;
+  padding: 0.1rem 0.4rem;
+  position: absolute;
+  top: -0.2rem;
+  right: -0.3rem;
+}
+
+main .content .leftSide .sideMenu .menu-item h3 {
+  font-size: 1rem;
+  margin-left: 1.3rem;
+}
+
+@media screen and (max-width: 1300px) {
+  main .content .leftSide .sideMenu .menu-item h3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  main .content .leftSide .sideMenu .menu-item h3 {
+    display: block;
+  }
+}
+
+main .content .leftSide .sideMenu .active {
+  background-color: #ccc;
+}
+
+main .content .leftSide .sideMenu .active i {
+  color: #f8225f;
+}
+
+main .content .leftSide .sideMenu .active h3 {
+  color: #f8225f;
+}
+
+main .content .leftSide .sideMenu .active::before {
+  content: " ";
+  display: block;
+  width: 0.5rem;
+  height: 100%;
+  position: absolute;
+  background-color: #f8225f;
+}
+
+main .content .leftSide .sideMenu .active:first-child {
+  border-top-left-radius: 1rem;
+  overflow: hidden;
+}
+
+main .content .leftSide .sideMenu .active:last-child {
+  border-bottom-left-radius: 1rem;
+  overflow: hidden;
+}
+
+main .content .leftSide .lastbtn {
+  display: block;
+  padding: 1rem 4vw;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 1300px) {
+  main .content .leftSide .lastbtn {
+    display: none;
+  }
+}
+
+main .content .leftSide .notification-update {
+  position: absolute;
+  top: 10px;
+  left: 110%;
+  width: 30rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0 0 2rem #f8225f, 75%, 60% 25%;
+          box-shadow: 0 0 2rem #f8225f, 75%, 60% 25%;
+  z-index: 8;
+}
+
+@media screen and (max-width: 939px) {
+  main .content .leftSide .notification-update {
+    position: absolute;
+    left: 26px;
+    top: 59px;
+    width: 18rem;
+    -webkit-box-shadow: 0 0 2rem #000000bf;
+            box-shadow: 0 0 2rem #000000bf;
+  }
+}
+
+main .content .leftSide .notification-update small {
+  display: block;
+  color: #9e98b3c2;
+  margin-top: 2px;
+  font-weight: 600;
+}
+
+main .content .leftSide .notification-update::before {
+  content: " ";
+  width: 1.2rem;
+  height: 1.2rem;
+  display: block;
+  background-color: #ffffff;
+  position: absolute;
+  left: -0.6rem;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+@media screen and (max-width: 939px) {
+  main .content .leftSide .notification-update::before {
+    top: -10px;
+    left: 8.8rem;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  main .content .middleArea {
+    -ms-grid-column: 12;
+    -ms-grid-column-span: -9;
+    grid-column: 12/3;
+  }
+}
+
+main .content .middleArea .stories {
+  height: 12rem;
+  gap: 0.5rem;
+}
+
+main .content .middleArea .stories .slid2 {
+  background: url(/styles/img/image4.jpg) no-repeat center center/cover;
+}
+
+@media screen and (max-width: 441px) {
+  main .content .middleArea .stories .slid2 {
+    display: none;
+  }
+}
+
+main .content .middleArea .stories .slidefirst {
+  background: url(/styles/img/image3.jpg) no-repeat center/cover;
+}
+
+main .content .middleArea .stories .slidesecond {
+  background: url(/styles/img/images7.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .slid3 {
+  background: url(/styles/img/image8.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .mary1 {
+  background: url(/styles/img/computerWolrd.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .Willams1 {
+  background: url(/styles/img/imge7.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .none2 {
+  display: none !important;
+}
+
+main .content .middleArea .stories .pic1 {
+  background: url(/styles/img/people8.jpg) no-repeat center center/cover;
+  display: none !important;
+}
+
+main .content .middleArea .stories .david {
+  background: url(/styles/img/cool8.jpeg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .mark {
+  background: url(/styles/img/cool7.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .lisa {
+  background: url(/styles/img/cool9.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .jacob {
+  background: url(/styles/img/cool1.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .linus {
+  background: url(/styles/img/cool3.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .sarah {
+  background: url(/styles/img/people4bb.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .Stephanie {
+  background: url(/styles/img/people4b.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .force {
+  background: url(/styles/img/office.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .donald {
+  background: url(/styles/img/blackhome.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .joyce {
+  background: url(/styles/img/people5.jpg) no-repeat center center/cover;
+}
+
+main .content .middleArea .stories .family {
+  background: url(/styles/img/family.jpg) no-repeat center center/cover;
+}
+
+@media screen and (min-width: 400px) {
+  main .content .middleArea .stories .mobile-none-1 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  main .content .middleArea .stories .mobile-none-2 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  main .content .middleArea .stories .mobile-none-3 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 744px) {
+  main .content .middleArea .stories .mobile-none-4 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media screen and (min-width: 876px) {
+  main .content .middleArea .stories .mobile-none-5 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+main .content .middleArea .stories .story {
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  overflow: hidden;
+}
+
+main .content .middleArea .stories .story::before {
+  content: "";
+  width: 100%;
+  height: 5rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(#000000bf));
+  background: linear-gradient(transparent, #000000bf);
+  position: absolute;
+  bottom: 0;
+}
+
+main .content .middleArea .stories .story .profile-imgs img {
+  width: 2rem;
+  height: 2rem;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  border: 3px solid #f8225f;
+}
+
+main .content .middleArea .Createpost {
+  background-color: #ffffff;
+  padding: 0.4rem 1rem;
+  border-radius: 2rem;
+}
+
+main .content .middleArea .Createpost .createinput {
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  margin-right: 1rem;
+}
+
+main .content .middleArea .Createpost .createinput:focus {
+  outline: none;
+  border: none;
+}
+
+main .content .middleArea .feeds .feed {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+main .content .middleArea .feeds .feed .mainPhoto {
+  overflow: hidden;
+  margin: 0.75rem 0;
+}
+
+main .content .middleArea .feeds .feed .mainPhoto img {
+  border-radius: 1rem;
+}
+
+main .content .middleArea .feeds .feed .actionbuttons {
+  font-size: 1.4rem;
+  margin: 0.9rem;
+}
+
+main .content .middleArea .feeds .feed .likebyupdate span {
+  width: 1.4rem;
+  height: 1.4rem;
+  display: block;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 2px solid #ffffff;
+  margin-left: -0.6rem;
+}
+
+main .content .middleArea .feeds .feed .likebyupdate span:first-child {
+  margin: 0;
+}
+
+main .content .middleArea .feeds .feed .likebyupdate p {
+  margin-left: 0.5rem;
+}
+
+main .content .rightSide {
+  position: static;
+  top: -18rem;
+  bottom: 0;
+}
+
+@media screen and (max-width: 939px) {
+  main .content .rightSide {
+    display: none;
+  }
+}
+
+main .content .rightSide .messagesarea {
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+main .content .rightSide .messagesarea .messageCategory h6 {
+  border-bottom: 4px solid #ccc;
+  padding-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+main .content .rightSide .messagesarea .messageCategory .messageRequest {
+  color: #f8225f;
+}
+
+main .content .rightSide .messagesarea .messageCategory .active {
+  border-color: #000000;
+}
+
+main .content .rightSide .messagesarea .message p {
+  font-size: 0.8rem;
+}
+
+main .content .rightSide .messagesarea .message .profile-imgs .active {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 100%;
+  border: 3px solid #ffffff;
+  position: absolute;
+  bottom: 0.2rem;
+  right: 0;
+  background-color: #2ecc71;
+}
+
+main .content .rightSide .friendRequest h4 {
+  color: #ccc;
+  margin: 1rem 0;
+}
+
+main .content .rightSide .friendRequest .request {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+main .content .rightSide .friendRequest .request .requestInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+main .content .rightSide .friendRequest .request .btn {
+  font-weight: 600 !important;
+}
+
 /* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
 /* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
 /* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 /* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
 /* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.customizeTheme {
+  place-items: center;
+  background-color: #ffffff80;
+  width: 100vw !important;
+  height: 100vh !important;
+  font-size: 1rem;
+}
+
+.customizeTheme .card {
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1rem #6b4ce6;
+          box-shadow: 0 0 1rem #6b4ce6;
+}
+
+@media screen and (max-width: 1200px) {
+  .customizeTheme .card {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  .customizeTheme .card {
+    width: 92vw !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .customizeTheme .card {
+    width: 97% !important;
+    padding: 20px;
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+}
+
+.customizeTheme .card .fontSizeOption {
+  margin-top: 5rem;
+}
+
+.customizeTheme .card .fontSizeOption > div {
+  background-color: #dbd3d3;
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+}
+
+.customizeTheme .card .fontSizeOption .chooseSize {
+  background-color: #9e98b3c2;
+  height: 0.3rem;
+  margin: 0 1rem;
+}
+
+.customizeTheme .card .fontSizeOption .chooseSize span {
+  width: 1rem;
+  height: 1rem;
+  background-color: #9e98b3c2;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.customizeTheme .card .fontSizeOption .chooseSize span.active {
+  background-color: #f8225f;
+}
+
+.customizeTheme .card .colorOption {
+  margin-top: 2rem;
+}
+
+.customizeTheme .card .colorOption .chooseColor {
+  background-color: #dbd3d3;
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+}
+
+.customizeTheme .card .colorOption .chooseColor span {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 100%;
+}
+
+.customizeTheme .card .colorOption .chooseColor span:nth-child(1) {
+  background-color: #6b4ce6;
+}
+
+.customizeTheme .card .colorOption .chooseColor span:nth-child(2) {
+  background-color: #e6d14c;
+}
+
+.customizeTheme .card .colorOption .chooseColor span:nth-child(3) {
+  background-color: #e64c61;
+}
+
+.customizeTheme .card .colorOption .chooseColor span:nth-child(4) {
+  background-color: #4ce69e;
+}
+
+.customizeTheme .card .colorOption .chooseColor span:nth-child(5) {
+  background-color: #4cade6;
+}
+
+.customizeTheme .card .colorOption .chooseColor span.active {
+  border: 5px solid #ffffff;
+}
+
+.customizeTheme .card .bacgroungOption {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .customizeTheme .card .bacgroungOption .choose-bg {
+    gap: 12px;
+  }
+}
+
+.customizeTheme .card .bacgroungOption .choose-bg > div {
+  padding: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+}
+
+@media screen and (max-width: 500px) {
+  .customizeTheme .card .bacgroungOption .choose-bg > div {
+    padding: 3px;
+  }
+}
+
+.customizeTheme .card .bacgroungOption .choose-bg > div.active {
+  border: 2px solid #6b4ce6;
+}
+
+.customizeTheme .card .bacgroungOption .choose-bg > div span {
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid #ccc;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.customizeTheme .card .bacgroungOption .choose-bg .bg-1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.customizeTheme .card .bacgroungOption .choose-bg .bg-2 {
+  background-color: #241e38;
+  color: #ffffff;
+}
+
+.customizeTheme .card .bacgroungOption .choose-bg .bg-3 {
+  background-color: #151221;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 400px) {
+  .customizeTheme .card .bacgroungOption .choose-bg .bg-3 span {
+    width: 2.5rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
