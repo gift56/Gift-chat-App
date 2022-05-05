@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifted World/ Login Page</title>
+    <link rel="icon" href="/styles/img/confirmlogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <div class="loader my-flexWorld fixedPosition" id="load">
+        <span class="holder">
+            <h1>Gifted Chat</h1>
+            <img src="/styles/img/loader gif.gif" alt="loder">
+            <img src="/styles/img/confirmlogo.png" alt="logo" class="logo">
+        </span>
+    </div>
+
+    <div class="login display-f f-d-col align-item-center">
+        <div class="about display-f justify-content-center align-item-center padding margin-t-3">
+            <img src="/styles/img/confirmlogo.png" alt="logo" class="logos fluid w-40">
+            <h2 class="text">Gifted Social is an app to the World Please Kindly Sign in and Join our World.</h2>
+        </div>
+        <div class="padding w-100 display-block">
+            <form action="/" id="myForm" class="form w-100 padding small-circle-2">
+                <h4 class="h4 text-center font-4 color-white">Login</h4>
+                <div class="form-control user display-f align-item-start">
+                    <label for="email" class="label color-white">Email-Address :</label>
+                    <div class="emailuser w-100">
+                        <input type="email" name="email" id="email" class="input-control w-100 p-left-5 color-white"
+                            value="" placeholder="Please enter your Email">
+                        <i class="far fa-user my-flexWorld color-white myusericon"></i>
+                        <i class="fas fa-check-circle firstsigns" id="check"></i>
+                        <i class="fas fa-exclamation-circle firstsigns" id="explain"></i>
+                        <p id="errormsgs" class="errorp"></p>
+                        <p id="errormsgs2" class="errorc"></p>
+                    </div>
+                </div>
+                <div class="form-control user display-f margin-t-1">
+                    <label for="password" class="label color-white">Password :</label>
+                    <div class="w-100 emailuser">
+                        <input type="password" name="password" placeholder="Please enter a verify password" id="password"
+                            value="" class="input-control w-100 p-left-5 my-flexWorld color-white">
+                        <i class="fas fa-lock color-white myusericon"></i>
+                        <i class="fas fa-check-circle firstsigns" id="check2"></i>
+                        <i class="fas fa-exclamation-circle firstsigns" id="explain2"></i>
+                        <p id="errormsgs22" class="errorp"></p>
+                        <p id="errormsg22" class="errorc"></p>
+                    </div>
+                </div>
+                <div class="forget"><a href="/indexs/resetpassword/reset.html">Forget Password?</a></div>
+                <div class="my-flexWorld w-100"><button type="submit"
+                        class="my-flexWorld color-white font-1 w-100 loginbtn small-circle-2">Login</button></div>
+                <div class="sign-up my-flexWorld f-d-col">
+                    <p class="option display-f align-item-center">or Sign Up <span>Using</span></p>
+                    <div class="span display-f align-item-center justify-content-evenly w-55">
+                        <a href="/indexs/signup.html" class="a rounded-ball"><i class="fab fa-google"></i></a>
+                        <a href="/indexs/signup.html" class="e-world a rounded-ball"><img src="/styles/img/confirmlogo.png"
+                                alt="" class="e-worlds w-3"></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="/styles/js/main.js"></script>
+</body>
+
+</html>

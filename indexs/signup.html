@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="icon" href="/styles/img/confirmlogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+
+<body>
+    <div class="loader my-flexWorld fixedPosition" id="load">
+        <span class="holder">
+            <h1>Gifted Chat</h1>
+            <img src="/styles/img/loader gif.gif" alt="loder">
+            <img src="/styles/img/confirmlogo.png" alt="logo" class="logo">
+        </span>
+    </div>
+
+    <div class="sign-up-form">
+        <header class="signIn display-f align-item-center justify-content-between">
+            <a href="/index.html" class="a">
+                <div class="display-f align-item-center logoprime">
+                    <img src="/styles/img/confirmlogo.png" alt="confirmlogo" class="w-4">
+                    <h2 class="logotext display-n text-transform-Upper color-white">Gifted Society <span class="icon"><i
+                                class="fa-solid fa-gift"></i></span>
+                    </h2>
+                </div>
+            </a>
+            <h5 class="loginBack"><a href="/index.html" class="a">Go back to Login Page</a></h5>
+            <form class="myForm display-n" id="myForm">
+                <div class="display-f usermails f-d-col">
+                    <label for="email" class="color-white font-1">Email :</label>
+                    <div class="usermail">
+                        <input type="email" name="email" id="emailA" placeholder="Enter your Email-Address"
+                            class="padding small-circle color-dark font-2">
+                        <i class="fas fa-check-circle circle2" id="checkA"></i>
+                        <i class="fas fa-exclamation-circle circle2" id="explainA"></i>
+                    </div>
+                </div>
+                <div class="form-control display-f usermails passway f-d-col margin-sides">
+                    <label for="password" class="color-white font-1">Password :</label>
+                    <div class="usermail">
+                        <input type="password" name="password" placeholder="Enter Password" id="passwordA"
+                            class="padding small-circle color-dark font-2 input-control">
+                        <i class="fas fa-check-circle circle2" id="check2A"></i>
+                        <i class="fas fa-exclamation-circle circle2" id="explain2A"></i>
+                    </div>
+                </div>
+                <div class="signup-btn"><button type="submit" class="font-1 color-white small-circle">Login</button>
+                </div>
+            </form>
+        </header>
+
+        <section class="sign-inSection main-p">
+            <div class="display-f f-d-col second-form padding-t-1 padding-b-1">
+                <div class="display-f margin-b-1 align-item-center f-d-col giphytext margin-b-1">
+                    <h2 class="mytexts">Gifted Society helps in building communication and Explore with people all over
+                        the
+                        World.</h2>
+                    <div class="w-100"><img src="/styles/img/connection.gif" alt="connection"
+                            class="w-95 connection medium-circle"></div>
+                </div>
+                <form class="signForms small-circle-2 padding" id="signUpForm">
+                    <h3 class="h3text text-center color-white">Sign Up</h3>
+                    <p class="text-center p color-white margin-b-5">It's free, and will alway be.</p>
+                    <div class="names display-f f-d-col">
+                        <label for="firstname" class="color-white">First Name :</label>
+                        <div class="usermail icons">
+                            <input type="text" name="firstname" id="firstName" placeholder="First name" maxlength="106"
+                                class="color-white padding small-circle-2">
+                                <i class="fas fa-check-circle valid" id="validCheck"></i>
+                                <i class="fas fa-exclamation-circle valid" id="validWarning"></i>
+                                <p class="errorc" id="Validmsg"></p>
+                        </div>
+                    </div>
+                    <div class="names display-f f-d-col">
+                        <label for="lastname" class="color-white">Last Name :</label>
+                        <div class="usermail icons">
+                            <input type="text" name="lastname" id="lastName" placeholder="Last name" maxlength="106"
+                                class="color-white padding small-circle-2">
+                                <i class="fas fa-check-circle valid" id="validCheckL"></i>
+                                <i class="fas fa-exclamation-circle valid" id="validWarningL"></i>
+                                <p class="errorc" id="ValidmsgL"></p>
+                        </div>
+                    </div>
+                    <div class="names display-f f-d-col">
+                        <label for="email" class="color-white">Email-Address :</label>
+                        <div class="usermail icons">
+                            <input type="email" name="email" id="email" placeholder="Email-Address" maxlength="106"
+                                class="color-white padding small-circle-2">
+                                <i class="fas fa-check-circle valid" id="ValidC"></i>
+                                <i class="fas fa-exclamation-circle valid" id="Valide"></i>
+                                <p class="errorp" id="EmailmsgErr"></p>
+                                <p class="errorc" id="Emailmsg"></p>
+                        </div>
+                    </div>
+                    <div class="names display-f f-d-col">
+                        <label for="password" class="color-white">New Password :</label>
+                        <div class="usermail icons">
+                            <input type="password" name="password" id="Newpassword" placeholder="New Password" maxlength="106"
+                                class="color-white padding small-circle-2">
+                                <i class="fas fa-check-circle valid" id="validp"></i>
+                                <i class="fas fa-exclamation-circle valid" id="validerrp"></i>
+                                <p class="errorp" id="PasswordmsgErr"></p>
+                                <p class="errorc" id="Passwordmsg"></p>
+                        </div>
+                    </div>
+                    <div class="names display-f f-d-col">
+                        <label for="password" class="color-white">Re-Enter New Password :</label>
+                        <div class="usermail icons">
+                            <input type="password" name="password" id="Confirmpassword" placeholder="Confirm Password" maxlength="106"
+                                class="color-white padding small-circle-2">
+                                <i class="fas fa-check-circle valid" id="validp2"></i>
+                                <i class="fas fa-exclamation-circle valid" id="validerrp2"></i>
+                                <p class="errorp" id="PasswordmsgErr2"></p>
+                                <p class="errorc" id="Passwordmsg2"></p>
+                        </div>
+                    </div>
+                    <div class="birthday margin-t-1">
+                        <label for="birthday" class="display-f align-item-center color-white">Birthday <i
+                                class="fa-solid fa-circle-question small-margin"></i></label>
+                        <div class="options display-f align-item-center margin-b-4 w-100">
+                            <select name="month" id="month" class="small-circle font-3">
+                                <option value="month">Dec</option>
+                                <option value="month">November</option>
+                                <option value="month">October</option>
+                                <option value="month">September</option>
+                                <option value="month">August</option>
+                                <option value="month">July</option>
+                                <option value="month">June</option>
+                                <option value="month">May</option>
+                                <option value="month">April</option>
+                                <option value="month">March</option>
+                                <option value="month">February</option>
+                                <option value="month">January</option>
+                            </select>
+                            <select name="date" id="date" class="small-circle font-3">
+                                <option value="date">31</option>
+                                <option value="date">30</option>
+                                <option value="date">29</option>
+                                <option value="date">28</option>
+                                <option value="date">27</option>
+                                <option value="date">26</option>
+                                <option value="date">25</option>
+                                <option value="date">24</option>
+                                <option value="date">23</option>
+                                <option value="date">22</option>
+                                <option value="date">21</option>
+                                <option value="date">20</option>
+                                <option value="date">19</option>
+                                <option value="date">18</option>
+                                <option value="date">17</option>
+                                <option value="date">16</option>
+                                <option value="date">15</option>
+                                <option value="date">14</option>
+                                <option value="date">13</option>
+                                <option value="date">12</option>
+                                <option value="date">11</option>
+                                <option value="date">10</option>
+                                <option value="date">9</option>
+                                <option value="date">8</option>
+                                <option value="date">7</option>
+                                <option value="date">6</option>
+                                <option value="date">5</option>
+                                <option value="date">4</option>
+                                <option value="date">3</option>
+                                <option value="date">2</option>
+                                <option value="date">1</option>
+                            </select>
+                            <select name="year" id="year" class="small-circle font-3">
+                                <option value="year">2022</option>
+                                <option value="year">2021</option>
+                                <option value="year">2020</option>
+                                <option value="year">2019</option>
+                                <option value="year">2018</option>
+                                <option value="year">2017</option>
+                                <option value="year">2016</option>
+                                <option value="year">2015</option>
+                                <option value="year">2014</option>
+                                <option value="year">2013</option>
+                                <option value="year">2012</option>
+                                <option value="year">2011</option>
+                                <option value="year">2010</option>
+                                <option value="year">2009</option>
+                                <option value="year">2008</option>
+                                <option value="year">2007</option>
+                                <option value="year">2006</option>
+                                <option value="year">2005</option>
+                                <option value="year">2004</option>
+                                <option value="year">2003</option>
+                                <option value="year">2002</option>
+                                <option value="year">2001</option>
+                                <option value="year">2000</option>
+                                <option value="year">1999</option>
+                            </select>
+                        </div>
+                        <label for="gender" class="display-f align-item-center gender color-white">Gender <i
+                                class="fa-solid fa-circle-question small-margin"></i></label>
+                        <div class="genderoptions display-f align-item-center">
+                            <div class="femaleRadio display-f align-item-center justify-content-between small-circle">
+                                <label for="female" class="color-dark font-2">Female</label>
+                                <input type="radio" name="gender" id="female">
+                            </div>
+                            <div class="maleRadio display-f align-item-center justify-content-between small-circle">
+                                <label for="male" class="color-dark font-2">Male</label>
+                                <input type="radio" name="gender" id="male">
+                            </div>
+                            <div class="customRadio display-f align-item-center justify-content-between small-circle">
+                                <label for="custom" class="color-dark font-2">Custom</label>
+                                <input type="radio" name="gender" id="custom">
+                            </div>
+                        </div>
+                        <p class="conditions color-white margin-t-1">Please click on the sign up button to show
+                            that you <span>agreed</span> to our <span>terms</span> and conditions.
+                        </p>
+                        <div class="btnsubmit display-f justify-content-center align-item-center margin-t-1 margin-b-5">
+                            <button type="submit" class="color-white font-3 small-circle">Sign Up</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <script src="/indexs/myformjs/validate.js"></script>
+</body>
+
+</html>

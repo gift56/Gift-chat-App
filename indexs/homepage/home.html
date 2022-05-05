@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifted Society/Home</title>
+    <link rel="icon" href="/styles/img/confirmlogo.png">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header w-100">
+        <div class="container">
+            <nav class="navHead display-f align-item-center justify-content-between">
+                <div class="logotext display-f align-item-center">
+                    <img src="/styles/img/confirmlogo.png" alt="logo" class="logos">
+                    <h4 class="align-item-center display-n">Gifted Society<span><i class="fa-solid fa-gift"></i></span>
+                    </h4>
+                </div>
+                <div class="searchbar display-n align-item-center">
+                    <i class="fa fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Search for....">
+                </div>
+                <div class="createpost display-f align-item-center gap-1">
+                    <label for="createPost" class="btn btn-first">Create</label>
+                    <div class="profiles site">
+                        <img src="/styles/img/Fb.jpg" alt="profile-img" class="profile-img rounded-ball max-w-n"
+                            id="profileSet">
+                        <div class="settings-help" id="settingDisplay">
+                            <h5>Account</h5>
+                            <div class="set">
+                                <a href="#" class="set-item">
+                                    <span><i class="fas fa-user-lock"></i>
+                                    </span>
+                                    Security & Privacy
+                                </a>
+                                <a href="#" class="set-item">
+                                    <span><i class="fas fa-info-circle"></i></span>
+                                    Help & Support
+                                </a>
+                            </div>
+                            <div class="log-out">
+                                <a href="" class="sign-out padding-b-2">
+                                    <span><i class="fas fa-sign-out"></i></span>
+                                    Log Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="barIcon display-f justify-content-center align-item-center" id="icon"><i
+                        class="fas fa-bars"></i></span>
+            </nav>
+        </div>
+    </header>
+    <main class="position-relative">
+        <div class="container">
+            <div class="content gap-1  position-relative">
+                <div class="leftSide height-m" id="leftSides">
+                    <a href="" class="profile display-f align-item-center padding w-100 gap-2 text-decoration-n"
+                        id="Proboy">
+                        <div class="profile-imgs">
+                            <img src="/styles/img/Fb.jpg" alt="profile picture" class="profile-img rounded-ball">
+                        </div>
+                        <div class="profile-name">
+                            <h4>Asieghwu Efe</h4>
+                            <p>efeasiughu@gmail.com</p>
+                        </div>
+                    </a>
+                    <div class="sideMenu margin-t-1" id="side">
+                        <a class="menu-item active">
+                            <span><i class="fa-solid fa-house"></i></span>
+                            <h3>Home</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="fa-solid fa-compass"></i></span>
+                            <h3>Explore</h3>
+                        </a>
+                        <a class="menu-item" id="notification">
+                            <span><i class="fa-solid fa-bell"><small
+                                        class="countNotification color-white width-fit">9+</small></i></span>
+                            <h3>Notifications</h3>
+                            <div class="notification-update display-n">
+                                <div class="hold display-f align-item-start gap-2 margin-b-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/image2.jpg" alt="notification-update-image"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="notification-msg">
+                                        <h5><b class="font-5">Drake Mark</b> accepted your friend request</h5>
+                                        <small>2 Days Ago</small>
+                                    </div>
+                                </div>
+                                <div class="hold display-f align-item-start gap-2 margin-b-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/image5.jpg" alt="notification-update-image"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="notification-msg">
+                                        <h5><b class="font-5">Matthew Smith</b> commented on your post</h5>
+                                        <small>2 Hours Ago</small>
+                                    </div>
+                                </div>
+                                <div class="hold display-f align-item-start gap-2 margin-b-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/image3.jpg" alt="notification-update-image"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="notification-msg">
+                                        <h5><b class="font-5">Stella Smith</b> updated her email</h5>
+                                        <small>An Hour Ago</small>
+                                    </div>
+                                </div>
+                                <div class="hold display-f align-item-start gap-2 margin-b-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/computerWolrd.jpg" alt="notification-update-image"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="notification-msg">
+                                        <h5><b class="font-5">You</b> started following Ate group</h5>
+                                        <small>Just Now</small>
+                                    </div>
+                                </div>
+                                <div class="hold display-f align-item-start gap-2 margin-b-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/image4.jpg" alt="notification-update-image"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="notification-msg">
+                                        <h5><b class="font-5">Jane</b> sent you a gift</h5>
+                                        <small>4 Days Ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="menu-item" id="messageNotification">
+                            <span><i class="fa-solid fa-envelope"><small
+                                        class="countNotification color-white">6</small></i></span>
+                            <h3>Messages</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="fa-solid fa-bookmark"></i></span>
+                            <h3>Bookmarks</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="fa-solid fa-chart-line"></i></span>
+                            <h3>Analytics</h3>
+                        </a>
+                        <a class="menu-item" id="theme">
+                            <span><i class="fa-solid fa-palette"></i></span>
+                            <h3>Theme</h3>
+                        </a>
+                        <a class="menu-item">
+                            <span><i class="fa-solid fa-gear"></i></span>
+                            <h3>Settings</h3>
+                        </a>
+                    </div>
+                    <label for="createPost" class=" margin-t-1 btn btn-first lastbtn w-100 text-center">Create
+                        Post</label>
+                </div>
+                <div class="middleArea">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <div class="stories display-f justify-content-between">
+                                <div
+                                    class="story slidefirst display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/image3.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Your Story</p>
+                                </div>
+                                <div
+                                    class="story slidesecond display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/peope3rb.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Smith Coddy</p>
+                                </div>
+                                <div
+                                    class="story mobile-none-1 none2 david display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/user2.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Justin David</p>
+                                </div>
+                                <div
+                                    class="story mobile-none-2 none2 mark display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/replacecool1.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Mark Specter</p>
+                                </div>
+                                <div
+                                    class="story mobile-none-3 none2 lisa display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/feed3.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Lisa Donnell</p>
+                                </div>
+                                <div
+                                    class="story mobile-none-4 pic1 display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/people8.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Charles Barkley</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="stories display-f justify-content-between">
+                                <div
+                                    class="story slid2 display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/user1.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Matthew Smith</p>
+                                </div>
+                                <div
+                                    class="story slid3 display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/images6.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Johnathan David</p>
+                                </div>
+                                <div
+                                    class="story mobile-none-1 jacob display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/cool2.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Jacob Diamond</p>
+                                </div>
+                                <div
+                                    class="story mobile-none-2 none2 linus display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/profile99.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Linus Torvalds</p>
+                                </div>
+                                <div
+                                    class="story mobile-none-3 none2 sarah display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/peolpe1.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Sarah Willams</p>
+                                </div>
+                                <div
+                                    class="story mobile-none-4 none2 Stephanie display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/people5.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Stephanie Gaberial</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="stories display-f justify-content-between">
+                                <div
+                                    class="story mary1 display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/image5.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Tech Society</p>
+                                </div>
+                                <div
+                                    class="story Willams1 display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/people4.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Willams Andrew</p>
+                                </div>
+                                <div
+                                    class="story none2 mobile-none-1 force display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/people9b.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Flawless Force</p>
+                                </div>
+                                <div
+                                    class="story none2 mobile-none-2 donald display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/blackguy.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Donald Scoutt</p>
+                                </div>
+                                <div
+                                    class="story none2 mobile-none-3 family display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/images.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Timothy Harrison</p>
+                                </div>
+                                <div
+                                    class="story none2 mobile-none-4 joyce display-f f-d-col justify-content-between align-item-center padding w-100 color-white position-relative">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/people2.jpg" alt="profile-img"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <p class="username z-index-2">Joyce Godfrey</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <form action="#"
+                        class="Createpost display-f align-item-center justify-content-between w-100 margin-t-1">
+                        <div class="profile-imgs">
+                            <img src="/styles/img/image3.jpg" alt="profile-img" class="profile-img rounded-ball">
+                        </div>
+                        <input type="text" placeholder="What's on your mind, Stella?" id="createPost"
+                            class="createinput justify-content-start w-100 padding color-dark">
+                        <input type="submit" value="Post" class="btn btn-first" id="sub">
+                    </form>
+                    <div class="feeds">
+                        <div class="feed padding">
+                            <div class="head display-f justify-content-between">
+                                <div class="user display-f gap-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/user1.jpg" alt="Sarah profile picture"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Sarah Andrews</h3>
+                                        <small>United state, An hour ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit pointer">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <div class="mainPhoto">
+                                <img src="/styles/img/feeds2.jpg" alt="img" class="w-100 max-w-100 height-auto">
+                            </div>
+                            <div class="actionbuttons display-f align-item-center justify-content-between">
+                                <div class="interactionbuttons">
+                                    <span class="like pointer"><i class="fa-solid fa-heart"></i></span>
+                                    <span class="comment pointer"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="share pointer"><i class="fa-solid fa-share-nodes"></i></span>
+                                </div>
+                                <div class="bookmark pointer">
+                                    <span class="bookmark"><i class="fa-solid fa-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="likebyupdate display-f">
+                                <span>
+                                    <img src="/styles/img/images6.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/image4.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/people4.jpg" alt="likedPhoto">
+                                </span>
+                                <p>Liked by <b>Timi Steve</b> and <b>2,300 others</b></p>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    Sarah Andrews Lorem ipsum dolor sit amet.
+                                    <span class="hashtag">#lifestyle</span>
+                                </p>
+                            </div>
+                            <div class="text-muted comment">View all 277 comments</div>
+                        </div>
+                        <div class="feed padding">
+                            <div class="head display-f justify-content-between">
+                                <div class="user display-f gap-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/user2.jpg" alt="John's profile picture"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="info">
+                                        <h3>John Mark</h3>
+                                        <small>United state, 9 hours ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit pointer">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <div class="mainPhoto">
+                                <img src="/styles/img/imge7.jpg" alt="img" class="w-100 max-w-100 height-auto">
+                            </div>
+                            <div class="actionbuttons display-f align-item-center justify-content-between">
+                                <div class="interactionbuttons">
+                                    <span class="like pointer"><i class="fa-solid fa-heart"></i></span>
+                                    <span class="comment pointer"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="share pointer"><i class="fa-solid fa-share-nodes"></i></span>
+                                </div>
+                                <div class="bookmark pointer">
+                                    <span class="bookmark"><i class="fa-solid fa-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="likebyupdate display-f">
+                                <span>
+                                    <img src="/styles/img/skull.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/image2.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/people2.jpg" alt="likedPhoto">
+                                </span>
+                                <p>Liked by <b>Dammy Daniel</b> and <b>1,300 others</b></p>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    Dammy Daniel Lorem ipsum dolor sit amet.
+                                    <span class="hashtag">#lifestyle</span>
+                                </p>
+                            </div>
+                            <div class="text-muted comment">View all 277 comments</div>
+                        </div>
+                        <div class="feed padding">
+                            <div class="head display-f justify-content-between">
+                                <div class="user display-f gap-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/people4.jpg" alt="Lukes profile picture"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Luke James</h3>
+                                        <small>L.A, 2 days Ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit pointer">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <div class="mainPhoto">
+                                <img src="/styles/img/image8.jpg" alt="img" class="w-100 max-w-100 height-auto">
+                            </div>
+                            <div class="actionbuttons display-f align-item-center justify-content-between">
+                                <div class="interactionbuttons">
+                                    <span class="like pointer"><i class="fa-solid fa-heart"></i></span>
+                                    <span class="comment pointer"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="share pointer"><i class="fa-solid fa-share-nodes"></i></span>
+                                </div>
+                                <div class="bookmark pointer">
+                                    <span class="bookmark"><i class="fa-solid fa-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="likebyupdate display-f">
+                                <span>
+                                    <img src="/styles/img/images6.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/feeds2.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/people4.jpg" alt="likedPhoto">
+                                </span>
+                                <p>Liked by <b>Steve James</b> and <b>2,000 others</b></p>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    Andrews Duke Lorem ipsum dolor sit amet.
+                                    <span class="hashtag">#Comics</span>
+                                </p>
+                            </div>
+                            <div class="text-muted comment">View all 277 comments</div>
+                        </div>
+                        <div class="feed padding">
+                            <div class="head display-f justify-content-between">
+                                <div class="user display-f gap-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/people2.jpg" alt="Jummy profile picture"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Jummy Queens</h3>
+                                        <small>Nigeria, Just Now</small>
+                                    </div>
+                                </div>
+                                <span class="edit pointer">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <div class="mainPhoto">
+                                <img src="/styles/img/people4b.jpg" alt="img" class="w-100 max-w-100 height-auto">
+                            </div>
+                            <div class="actionbuttons display-f align-item-center justify-content-between">
+                                <div class="interactionbuttons">
+                                    <span class="like pointer"><i class="fa-solid fa-heart"></i></span>
+                                    <span class="comment pointer"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="share pointer"><i class="fa-solid fa-share-nodes"></i></span>
+                                </div>
+                                <div class="bookmark pointer">
+                                    <span class="bookmark"><i class="fa-solid fa-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="likebyupdate display-f">
+                                <span>
+                                    <img src="/styles/img/skull.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/bg1.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/images6.jpg" alt="likedPhoto">
+                                </span>
+                                <p>Liked by <b>Jane Scoutt</b> and <b>1,000 others</b></p>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    Jane Mike Lorem ipsum dolor sit amet.
+                                    <span class="hashtag">#lifestyle #photo</span>
+                                </p>
+                            </div>
+                            <div class="text-muted comment">View all 100 comments</div>
+                        </div>
+                        <div class="feed padding">
+                            <div class="head display-f justify-content-between">
+                                <div class="user display-f gap-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/feed1.jpg" alt="Tech-World profile picture"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Tech-World Group Post</h3>
+                                        <small>United state, An hour ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit pointer">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <div class="mainPhoto">
+                                <video controls class="w-100 height-auto">
+                                    <source src="/styles/videos/feedvideo.mp4" type="video/mp4">
+                                    <source src="/styles/videos/feedvideo.ogg" type="video/ogg">
+                                </video>
+                            </div>
+                            <div class="actionbuttons display-f align-item-center justify-content-between">
+                                <div class="interactionbuttons">
+                                    <span class="like pointer"><i class="fa-solid fa-heart"></i></span>
+                                    <span class="comment pointer"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="share pointer"><i class="fa-solid fa-share-nodes"></i></span>
+                                </div>
+                                <div class="bookmark pointer">
+                                    <span class="bookmark"><i class="fa-solid fa-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="likebyupdate display-f">
+                                <span>
+                                    <img src="/styles/img/images6.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/image4.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/people4.jpg" alt="likedPhoto">
+                                </span>
+                                <p>Liked by <b>Coody James</b> and <b>4,300 others</b></p>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    Coody James Lorem ipsum dolor sit amet.
+                                    <span class="hashtag">#lifestyle #Coding</span>
+                                </p>
+                            </div>
+                            <div class="text-muted comment">View all 977 comments</div>
+                        </div>
+                        <div class="feed padding">
+                            <div class="head display-f justify-content-between">
+                                <div class="user display-f gap-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/peolpe3.jpg" alt="Daniel profile picture"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Daniel Abel</h3>
+                                        <small>Florida, 2 hours ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit pointer">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <div class="mainPhoto">
+                                <img src="/styles/img/people6.jpg" alt="Daniel's post"
+                                    class="w-100 max-w-100 height-auto">
+                            </div>
+                            <div class="actionbuttons display-f align-item-center justify-content-between">
+                                <div class="interactionbuttons">
+                                    <span class="like pointer"><i class="fa-solid fa-heart"></i></span>
+                                    <span class="comment pointer"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="share pointer"><i class="fa-solid fa-share-nodes"></i></span>
+                                </div>
+                                <div class="bookmark pointer">
+                                    <span class="bookmark"><i class="fa-solid fa-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="likebyupdate display-f">
+                                <span>
+                                    <img src="/styles/img/people6.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/image4.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/people4.jpg" alt="likedPhoto">
+                                </span>
+                                <p>Liked by <b>Timi David</b> and <b>2,900 others</b></p>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    Timi David Lorem ipsum dolor sit amet.
+                                    <span class="hashtag">#lifestyle</span>
+                                </p>
+                            </div>
+                            <div class="text-muted comment">View all 277 comments</div>
+                        </div>
+                        <div class="feed padding">
+                            <div class="head display-f justify-content-between">
+                                <div class="user display-f gap-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/images6.jpg" alt="Steven profile picture"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Steven Danger</h3>
+                                        <small>United state, Just Now</small>
+                                    </div>
+                                </div>
+                                <span class="edit pointer">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <div class="mainPhoto">
+                                <img src="/styles/img/skull.jpg" alt="Steven's posts"
+                                    class="w-100 max-w-100 height-auto">
+                            </div>
+                            <div class="actionbuttons display-f align-item-center justify-content-between">
+                                <div class="interactionbuttons">
+                                    <span class="like pointer"><i class="fa-solid fa-heart"></i></span>
+                                    <span class="comment pointer"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="share pointer"><i class="fa-solid fa-share-nodes"></i></span>
+                                </div>
+                                <div class="bookmark pointer">
+                                    <span class="bookmark"><i class="fa-solid fa-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="likebyupdate display-f">
+                                <span>
+                                    <img src="/styles/img/images6.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/travelworld.gif" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/user2.jpg" alt="likedPhoto">
+                                </span>
+                                <p>Liked by <b>Scott Adams</b> and <b>3,000 others</b></p>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    Scoutt Lorem ipsum dolor sit amet.
+                                    <span class="hashtag">#lifestyle #Comics #Scary</span>
+                                </p>
+                            </div>
+                            <div class="text-muted comment">View all 977 comments</div>
+                        </div>
+                        <div class="feed padding">
+                            <div class="head display-f justify-content-between">
+                                <div class="user display-f gap-2">
+                                    <div class="profile-imgs">
+                                        <img src="/styles/img/feed1.jpg" alt="Tech-World profile picture"
+                                            class="profile-img rounded-ball">
+                                    </div>
+                                    <div class="info">
+                                        <h3>Tech-World Group Post</h3>
+                                        <small>United state, An hour ago</small>
+                                    </div>
+                                </div>
+                                <span class="edit pointer">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </span>
+                            </div>
+                            <div class="mainPhoto">
+                                <img src="/styles/img/image5.jpg" alt="img" class="w-100 max-w-100 height-auto">
+                            </div>
+                            <div class="actionbuttons display-f align-item-center justify-content-between">
+                                <div class="interactionbuttons">
+                                    <span class="like pointer"><i class="fa-solid fa-heart"></i></span>
+                                    <span class="comment pointer"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span class="share pointer"><i class="fa-solid fa-share-nodes"></i></span>
+                                </div>
+                                <div class="bookmark pointer">
+                                    <span class="bookmark"><i class="fa-solid fa-bookmark"></i></span>
+                                </div>
+                            </div>
+                            <div class="likebyupdate display-f">
+                                <span>
+                                    <img src="/styles/img/images6.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/image4.jpg" alt="likedPhoto">
+                                </span>
+                                <span>
+                                    <img src="/styles/img/people4.jpg" alt="likedPhoto">
+                                </span>
+                                <p>Liked by <b>Coody James</b> and <b>4,300 others</b></p>
+                            </div>
+                            <div class="caption">
+                                <p>
+                                    Coody James Lorem ipsum dolor sit amet.
+                                    <span class="hashtag">#lifestyle #Coding</span>
+                                </p>
+                            </div>
+                            <div class="text-muted comment">View all 977 comments</div>
+                        </div>
+                    </div>
+                    <div class="my-flexWorld padding-b-2"><button class="btn btn-first" id="seeMore">See More</button>
+                    </div>
+                </div>
+                <div class="rightSide height-m">
+                    <div class="messagesarea padding" id="messagesareas">
+                        <div class="heading display-f justify-content-between align-item-center margin-b-2">
+                            <h4>Messages</h4>
+                            <span><i class="fa-solid fa-pen-to-square size-f"></i></span>
+                        </div>
+                        <div class="searchbar display-f margin-b-2">
+                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="search" name="search" placeholder="Search Message" id="Searchmessage"
+                                class="w-100">
+                        </div>
+                        <div class="messageCategory display-f justify-content-between margin-b-2">
+                            <h6 class="active w-100 text-center pointer">Primary</h6>
+                            <h6 class="w-100 text-center pointer">General</h6>
+                            <h6 class="messageRequest w-100 text-center pointer">Requests(4)</h6>
+                        </div>
+                        <div class="message display-f gap-2 margin-b-2">
+                            <div class="profile-imgs position-relative">
+                                <img src="/styles/img/user1.jpg" alt="Sarah's profile picture"
+                                    class="profile-img rounded-ball">
+                            </div>
+                            <div class="messageBody">
+                                <h5>Steven Mark</h5>
+                                <p class="text-muted">Just feeling good</p>
+                            </div>
+                        </div>
+                        <div class="message display-f gap-2 margin-b-2">
+                            <div class="profile-imgs position-relative">
+                                <img src="/styles/img/imge7.jpg" alt="John's profile picture"
+                                    class="profile-img rounded-ball">
+                            </div>
+                            <div class="messageBody">
+                                <h5>John Smith</h5>
+                                <p class="text-bold">Good Job!</p>
+                            </div>
+                        </div>
+                        <div class="message display-f gap-2 margin-b-2">
+                            <div class="profile-imgs position-relative">
+                                <img src="/styles/img/people2.jpg" alt="Jummy profile picture"
+                                    class="profile-img rounded-ball">
+                            </div>
+                            <div class="messageBody">
+                                <h5>Jummy Queens</h5>
+                                <p class="text-muted">I'm fine</p>
+                            </div>
+                        </div>
+                        <div class="message display-f gap-2 margin-b-2">
+                            <div class="profile-imgs position-relative">
+                                <img src="/styles/img/people5.jpg" alt="Kate's profile picture"
+                                    class="profile-img rounded-ball">
+                                <div class="active"></div>
+                            </div>
+                            <div class="messageBody">
+                                <h5>Kate Philip</h5>
+                                <p class="text-bold">How are you doing ?</p>
+                            </div>
+                        </div>
+                        <div class="message display-f gap-2 margin-b-2">
+                            <div class="profile-imgs position-relative">
+                                <img src="/styles/img/people4.jpg" alt="Luke's profile picture"
+                                    class="profile-img rounded-ball">
+                                <div class="active"></div>
+                            </div>
+                            <div class="messageBody">
+                                <h5>Luke James</h5>
+                                <p class="text-bold">Did you see it ?</p>
+                            </div>
+                        </div>
+                        <div class="message display-f gap-2">
+                            <div class="profile-imgs position-relative">
+                                <img src="/styles/img/bg1.jpg" alt="Laura's profile picture"
+                                    class="profile-img rounded-ball">
+                            </div>
+                            <div class="messageBody">
+                                <h5>Laura Mike</h5>
+                                <p class="text-muted">I have sent it to you</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="friendRequest margin-t-1">
+                        <h4>Request</h4>
+                        <div class="request padding">
+                            <div class="requestInfo">
+                                <div class="profile-imgs">
+                                    <img src="/styles/img/user2.jpg" class="profile-img rounded-ball">
+                                </div>
+                                <div class="textInfo">
+                                    <h5>John Mark</h5>
+                                    <p class="text-muted">
+                                        3 mutual friends
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="display-f action gap-2">
+                                <button class="btn btn-first">Accept</button>
+                                <button class="btn decline color-dark">Decline</button>
+                            </div>
+                        </div>
+                        <div class="request padding">
+                            <div class="requestInfo">
+                                <div class="profile-imgs">
+                                    <img src="/styles/img/people4b.jpg" class="profile-img rounded-ball">
+                                </div>
+                                <div class="textInfo">
+                                    <h5>Mary Duke</h5>
+                                    <p class="text-muted">
+                                        4 mutual friends
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="display-f action mary gap-2">
+                                <button class="btn btn-first">Accept</button>
+                                <button class="btn decline color-dark">Decline</button>
+                            </div>
+                        </div>
+                        <div class="request padding">
+                            <div class="requestInfo">
+                                <div class="profile-imgs">
+                                    <img src="/styles/img/people8.jpg" class="profile-img rounded-ball">
+                                </div>
+                                <div class="textInfo">
+                                    <h5>Duke Mark</h5>
+                                    <p class="text-muted">
+                                        3 mutual friends
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="display-f action duke gap-2">
+                                <button class="btn btn-first">Accept</button>
+                                <button class="btn decline color-dark">Decline</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="customizeTheme display-n text-center fixedPosition" id="themeCustomization">
+        <div class="card w-50">
+            <h2>Customize your view</h2>
+            <p class="text-muted">Manage your font size, color, and bacground changed.</p>
+            <div class="fontSizeOption">
+                <h4>Font Size</h4>
+                <div class="opt display-f justify-content-between align-item-center">
+                    <h6>Aa</h6>
+                    <div class="chooseSize display-f justify-content-between align-item-center w-100">
+                        <span class="font-size-1 active"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <div class="colorOption">
+                <h4>Color</h4>
+                <div class="chooseColor display-f justify-content-between align-item-center">
+                    <span class="color-1 active pointer"></span>
+                    <span class="color-2 pointer"></span>
+                    <span class="color-3 pointer"></span>
+                    <span class="color-4 pointer"></span>
+                    <span class="color-5 pointer"></span>
+                </div>
+            </div>
+            <div class="bacgroungOption">
+                <h4>Background</h4>
+                <div class="choose-bg display-f justify-content-between align-item-center gap-2">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Dark Mood</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/indexs/homepage/homejs/swiper.js"></script>
+    <script src="/indexs/homepage/homejs/home.js"></script>
+</body>
+
+</html>

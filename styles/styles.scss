@@ -1,0 +1,1043 @@
+@import "./modules/varibles";
+@import "./modules/reset";
+@import "./modules/classes";
+@import "./modules/mixin";
+.loader {
+    background-color: $bg;
+    // .holder {
+    //     position: relative;
+    // }
+    // h1 {
+    //     transform: translateY(50px) translateX(154px);
+    //     color: $color;
+    // }
+    // .logo {
+    //     position: absolute;
+    //     top: 150px;
+    //     width: 50px;
+    //     left: 215px;
+    // }
+}
+// .completed {
+//     animation: complete 1s forwards;
+//  }
+// @keyframes complete {
+//     100% {
+//         opacity: 0;
+//         visibility: hidden;
+//     }
+// }
+// .login {
+//     background: $linearbg;
+//     min-height: 100vh;
+//     @include media {
+//         flex-direction: row;
+//         padding: 2em;
+//     }
+//     .about {
+//         flex-direction: column;
+//         .logos {
+//             margin-bottom: 12px;
+//             @include media(1400px) {
+//                 width: 30%;
+//             }
+//         }
+//     }
+//     .form {
+//         border: 2px solid $white;
+//         width: 95%;
+//         @include media {
+//             max-width: 100%;
+//         }
+//         .h4 {
+//             letter-spacing: 2px;
+//             margin-bottom: 16px;
+//             @include media {
+//                 font-size: 40px;
+//             }
+//         }
+//         .label {
+//             font-size: 16px;
+//             font-weight: 500;
+//             @include media {
+//                 font-size: 20px;
+//             }
+//         }
+//         .user {
+//             .emailuser {
+//                 position: relative;
+//                 .myusericon {
+//                     position: absolute;
+//                     top: 13px;
+//                     left: 0;
+//                     transform: translateX(10px);
+//                     font-size: 16px;
+//                     @include media {
+//                         top: 15px;
+//                     }
+//                 }
+//                 .firstsigns {
+//                     position: absolute;
+//                     top: 15px;
+//                     right: 10px;
+//                     visibility: hidden;
+//                 }
+//             }
+//         }
+//         .loginbtn {
+//             border: 2px solid $color;
+//             margin-bottom: 20px;
+//             background-color: $color;
+//             padding: 10px;
+//             height: 41px;
+//             &:hover {
+//                 cursor: pointer;
+//                 background-color: $colorhover;
+//                 border: 2px solid $colorhover;
+//             }
+//             @include media(700px) {
+//                 width: 90% !important;
+//                 font-size: 20px;
+//             }
+//         }
+//         .forget {
+//             margin: 20px 0 30px;
+//             display: flex;
+//             justify-content: end;
+//             align-items: flex-end;
+//             a {
+//                 text-decoration: none;
+//                 color: $white;
+//                 font-size: 16px;
+//                 font-family: $font2;
+//             }
+//         }
+//         .sign-up {
+//             margin-bottom: 40px;
+//             .option {
+//                 color: $white;
+//                 font-size: 18px;
+//                 margin-bottom: 18px;
+//                 flex-direction: column;
+//                 margin-right: 2vw;
+//                 @include media {
+//                     margin-right: 0;
+//                 }
+//             }
+//             .span {
+//                 a {
+//                     margin-bottom: 0;
+//                     border: 1px solid $white;
+//                     padding: 8px;
+//                     height: 54px;
+//                     &:first-child {
+//                         margin-bottom: 3px;
+//                     }
+//                 }
+//                 .fa-google {
+//                     font-size: 32px;
+//                 }
+//                 @include media(1100px) {
+//                     justify-content: center;
+//                     gap: 10px;
+//                 }
+//             }
+//         }
+//     }
+// }
+// Login page styling ends here
+
+// .sign-up-form {
+//     background: $linearbg;
+//     .signIn {
+//         background-color: $bgHead;
+//         padding: 10px 29px;
+//         @include media {
+//             padding: 0 40px;
+//             padding-top: 19px;
+//             padding-bottom: 10px;
+//         }
+
+//         .loginBack {
+//             font-size: 14px;
+//             @include media {
+//                 display: none;
+//             }
+//         }
+//         .logoprime {
+//             .logotext {
+//                 @include media(524px) {
+//                     display: block;
+//                     font-size: 19px;
+//                 }
+//                 @include media(764px) {
+//                     font-size: 22px;
+//                 }
+//                 @include media(1200px) {
+//                     font-size: 30px;
+//                 }
+//             }
+//         }
+//         .myForm {
+//             @include media {
+//                 display: flex;
+//                 align-items: end;
+//             }
+//             .usermails {
+//                 label {
+//                     @include media(1200px) {
+//                         font-size: 20px;
+//                     }
+//                 }
+//                 .usermail {
+//                     position: relative;
+//                     input {
+//                         background-color: $white;
+//                         height: 28px;
+//                         width: 170px;
+//                         border: 2px solid $white;
+//                         &::placeholder {
+//                             color: $black;
+//                         }
+//                         &:focus {
+//                             border: 2px solid $color;
+//                             outline: none;
+//                         }
+//                         @include media(1200px) {
+//                             width: 300px;
+//                             height: 40px;
+//                             font-size: 15px;
+//                         }
+//                     }
+//                     .circle2 {
+//                         display: none;
+//                         @include media(1300px) {
+//                             display: flex;
+//                             position: absolute;
+//                             top: 12px;
+//                             right: 10px;
+//                             visibility: hidden;
+//                         }
+//                     }
+//                 }
+//             }
+//             .signup-btn {
+//                 button {
+//                     width: 58px;
+//                     height: 29px;
+//                     background-color: $color;
+//                     @include media(1200px) {
+//                         height: 40px;
+//                         font-size: 19px;
+//                         width: 70px;
+//                     }
+//                     &:hover {
+//                         cursor: pointer;
+//                         background-color: $colorhover;
+//                     }
+//                 }
+//                 @include media(1200px) {
+//                     padding: 4px;
+//                 }
+//             }
+//         }
+//     }
+// }
+// .sign-inSection {
+//     .second-form {
+//         @include media {
+//             flex-direction: row;
+//             margin-top: 18px;
+//         }
+//         .giphytext {
+//             @include media {
+//                 padding: 0 25px;
+//                 margin-top: 8vh;
+//             }
+//         }
+//         .connection {
+//             @include media {
+//                 width: 300px;
+//             }
+//             @include media(1100px) {
+//                 width: 420px;
+//             }
+//         }
+//         .signForms {
+//             border: 2px solid $white;
+//             @include media {
+//                 min-width: 54%;
+//             }
+//             @include media(1600px) {
+//                 min-width: 739px;
+//             }
+//             .h3text {
+//                 font-size: 26px;
+//                 @include media(600px) {
+//                     font-size: 30px;
+//                 }
+//             }
+//             .p {
+//                 @include media(600px) {
+//                     font-size: 18px;
+//                 }
+//             }
+//             .names {
+//                 line-height: 50px;
+//                 label {
+//                     @include media(600px) {
+//                         font-size: 18px;
+//                     }
+//                     @include media(1400px) {
+//                         font-size: 20px;
+//                     }
+//                 }
+//                 input {
+//                     background-color: $transparent;
+//                     border-bottom: 2px solid $white;
+//                     height: 45px;
+//                     font-size: 18px;
+//                     font-family: $font2;
+//                     width: 100%;
+//                     &::placeholder {
+//                         color: $white;
+//                     }
+//                     &:focus {
+//                         border: 2px solid $white;
+//                         outline: none;
+//                     }
+//                 }
+//                 .icons {
+//                     position: relative;
+//                     .valid {
+//                         position: absolute;
+//                         top: 15px;
+//                         right: 16px;
+//                         visibility: hidden;
+//                     }
+//                 }
+//             }
+//             .birthday {
+//                 label {
+//                     @include media(600px) {
+//                         font-size: 18px;
+//                     }
+//                 }
+//                 .options {
+//                     gap: 10px;
+//                     margin-top: 6px;
+//                     #month {
+//                         width: 33%;
+//                         height: 30px;
+//                         padding-left: 4px;
+//                         cursor: pointer;
+//                         &:focus {
+//                             border: 2px solid $color;
+//                             outline: none;
+//                         }
+//                         @include media(600px) {
+//                             font-size: 15px;
+//                             height: 40px;
+//                         }
+//                         @include media(1000px) {
+//                             width: 39%;
+//                         }
+//                     }
+//                     #date {
+//                         width: 22%;
+//                         padding-left: 4px;
+//                         height: 30px;
+//                         cursor: pointer;
+//                         &:focus {
+//                             border: 2px solid $color;
+//                             outline: none;
+//                         }
+//                         @include media(600px) {
+//                             font-size: 15px;
+//                             height: 40px;
+//                         }
+//                     }
+//                     #year {
+//                         width: 40%;
+//                         height: 30px;
+//                         padding-left: 4px;
+//                         cursor: pointer;
+//                         &:focus {
+//                             border: 2px solid $color;
+//                             outline: none;
+//                         }
+//                         @include media(600px) {
+//                             font-size: 15px;
+//                             height: 40px;
+//                         }
+//                     }
+//                 }
+//                 .genderoptions {
+//                     gap: 10px;
+//                     label {
+//                         @include media(600px) {
+//                             font-size: 15px;
+//                         }
+//                     }
+//                     .femaleRadio {
+//                         width: 43%;
+//                         padding: 6px;
+//                         background-color: $white;
+//                         border: 2px solid $white;
+//                         cursor: pointer;
+//                     }
+//                     .maleRadio {
+//                         width: 33%;
+//                         padding: 6px;
+//                         border: 2px solid $white;
+//                         background-color: $white;
+//                         cursor: pointer;
+//                     }
+//                     .customRadio {
+//                         width: 33%;
+//                         padding: 6px;
+//                         background-color: $white;
+//                         border: 2px solid $white;
+//                         cursor: pointer;
+//                     }
+//                 }
+//                 .btnsubmit {
+//                     button {
+//                         width: 196px;
+//                         height: 31px;
+//                         background-color: $color;
+//                         @include media {
+//                             width: 219px;
+//                             height: 40px;
+//                         }
+//                         &:hover {
+//                             cursor: pointer;
+//                             background-color: $colorhover;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+//Sign up page ends here
+
+// .header {
+//     background-color: $white;
+//     position: fixed;
+//     z-index: 1111;
+//     .navHead {
+//         padding: 10px 0;
+//         .logotext {
+//             .logos {
+//                 width: 2.7rem;
+//                 aspect-ratio: 1/1;
+//                 @media screen and (max-width: 661px) {
+//                     width: 30%;
+//                 }
+//             }
+//             h4 {
+//                 font-size: 18px;
+//                 font-weight: 600;
+//                 @media screen and (min-width: 662px) {
+//                     display: flex;
+//                 }
+//             }
+//         }
+//         .barIcon {
+//             width: 20%;
+//             i {
+//                 font-size: 21px;
+//             }
+//             @media screen and (min-width: 940px) {
+//                 display: none;
+//             }
+//         }
+//         .searchbar {
+//             @media screen and (min-width: 940px) {
+//                 display: flex;
+//             }
+//         }
+//         .createpost {
+//             @media screen and (max-width: 661px) {
+//                 gap: 13px;
+//             }
+//         }
+//     }
+// }
+// main {
+//     top: 5rem;
+//     .content {
+//         display: grid;
+//         grid-template-columns: 18vw auto 19vw;
+
+//         @media screen and (max-width: 1300px) {
+//             grid-template-columns: 5rem auto 30vw;
+//             gap: 1rem;
+//         }
+//         @media screen and (max-width: 939px) {
+//             grid-template-columns: 0 auto 5rem;
+//             gap: 0;
+//         }
+//         .leftSide {
+//             position: sticky;
+//             top: 5.2rem;
+//             right: -18rem;
+//             @media screen and(max-width:1200px) {
+//                 width: 5rem;
+//                 z-index: 5;
+//             }
+//             @media screen and(max-width:939px) {
+//                 display: flex;
+//                 position: fixed;
+//                 right: 0;
+//                 width: 100%;
+//                 transform: translateY(-18px);
+//                 background-color: $white;
+//                 max-height: 0;
+//                 transition: all 300ms ease;
+//             }
+//             .profile {
+//                 background-color: $white;
+//                 color: $homecolor1;
+//                 border-radius: 1rem;
+//                 @media screen and (max-width: 1300px) {
+//                     visibility: hidden;
+//                     position: absolute;
+//                 }
+//                 @media screen and (max-width: 939px) {
+//                     display: none;
+//                     visibility: visible;
+//                     position: absolute;
+//                     top: 7px;
+//                     left: 0;
+//                     box-shadow: $shadow1;
+//                 }
+//             }
+//             .sideMenu {
+//                 background-color: $white;
+//                 border-radius: 1rem;
+//                 @media screen and (max-width: 939px) {
+//                     height: 100vh;
+//                     display: none;
+//                     width: 98%;
+//                     transform: translateY(78px);
+//                     transition: all 300ms ease;
+//                 }
+
+//                 .menu-item {
+//                     display: flex;
+//                     align-items: center;
+//                     height: 4rem;
+//                     cursor: pointer;
+//                     position: relative;
+//                     transition: all 300ms ease;
+//                     gap: 0.2rem;
+//                     &:hover {
+//                         background-color: $bg2;
+//                     }
+//                     i {
+//                         position: relative;
+//                         color: $homecolor2;
+//                         font-size: 1rem;
+//                         margin-left: 2rem;
+//                         .countNotification {
+//                             background-color: $danger;
+//                             font-size: 0.5rem;
+//                             border-radius: 0.8rem;
+//                             padding: 0.1rem 0.4rem;
+//                             position: absolute;
+//                             top: -0.2rem;
+//                             right: -0.3rem;
+//                         }
+//                     }
+//                     h3 {
+//                         font-size: 1rem;
+//                         margin-left: 1.3rem;
+//                         @media screen and (max-width: 1300px) {
+//                             display: none;
+//                         }
+//                         @media screen and (max-width: 939px) {
+//                             display: block;
+//                         }
+//                     }
+//                 }
+//                 .active {
+//                     background-color: $bg2;
+//                     i {
+//                         color: $btn-color;
+//                     }
+//                     h3 {
+//                         color: $btn-color;
+//                     }
+//                     &::before {
+//                         content: " ";
+//                         display: block;
+//                         width: 0.5rem;
+//                         height: 100%;
+//                         position: absolute;
+//                         background-color: $btn-color;
+//                     }
+//                     &:first-child {
+//                         border-top-left-radius: 1rem;
+//                         overflow: hidden;
+//                     }
+//                     &:last-child {
+//                         border-bottom-left-radius: 1rem;
+//                         overflow: hidden;
+//                     }
+//                 }
+//             }
+//             .lastbtn {
+//                 display: block;
+//                 padding: 1rem 4vw;
+//                 margin-bottom: 12px;
+//                 @media screen and (max-width: 1300px) {
+//                     display: none;
+//                 }
+//             }
+//             .notification-update {
+//                 position: absolute;
+//                 top: 10px;
+//                 left: 110%;
+//                 width: 30rem;
+//                 background-color: $white;
+//                 border-radius: 1rem;
+//                 padding: 1rem;
+//                 box-shadow: 0 0 2rem $btn-color, 75%, 60% 25%;
+//                 z-index: 8;
+//                 @media screen and (max-width: 939px) {
+//                     position: absolute;
+//                     left: 26px;
+//                     top: 59px;
+//                     width: 18rem;
+//                     box-shadow: 0 0 2rem $transparentblack;
+//                 }
+//                 small {
+//                     display: block;
+//                     color: $small;
+//                     margin-top: 2px;
+//                     font-weight: 600;
+//                 }
+//                 &::before {
+//                     content: " ";
+//                     width: 1.2rem;
+//                     height: 1.2rem;
+//                     display: block;
+//                     background-color: $white;
+//                     position: absolute;
+//                     left: -0.6rem;
+//                     transform: rotate(45deg);
+//                     @media screen and (max-width: 939px) {
+//                         top: -10px;
+//                         left: 8.8rem;
+//                         display: block;
+//                     }
+//                 }
+//             }
+//         }
+//         .middleArea {
+//             @media screen and (max-width: 939px) {
+//                 grid-column: 12/3;
+//             }
+//             .stories {
+//                 height: 12rem;
+//                 gap: 0.5rem;
+//                 .slid2 {
+//                     background: url(/styles/img/image4.jpg) no-repeat center center/cover;
+//                     @media screen and(max-width:441px) {
+//                         display: none;
+//                     }
+//                 }
+//                 .slidefirst {
+//                     background: url(/styles/img/image3.jpg) no-repeat center/cover;
+//                 }
+//                 .slidesecond {
+//                     background: url(/styles/img/images7.jpg) no-repeat center center/cover;
+//                 }
+//                 .slid3 {
+//                     background: url(/styles/img/image8.jpg) no-repeat center center/cover;
+//                 }
+//                 .mary1 {
+//                     background: url(/styles/img/computerWolrd.jpg) no-repeat center center/cover;
+//                 }
+//                 .Willams1 {
+//                     background: url(/styles/img/imge7.jpg) no-repeat center center/cover;
+//                 }
+//                 .none2 {
+//                     display: none !important;
+//                 }
+//                 .pic1 {
+//                     background: url(/styles/img/people8.jpg) no-repeat center center/cover;
+//                     display: none !important;
+//                 }
+//                 .david {
+//                     background: url(/styles/img/cool8.jpeg) no-repeat center center/cover;
+//                 }
+//                 .mark {
+//                     background: url(/styles/img/cool7.jpg) no-repeat center center/cover;
+//                 }
+//                 .lisa {
+//                     background: url(/styles/img/cool9.jpg) no-repeat center center/cover;
+//                 }
+//                 .jacob {
+//                     background: url(/styles/img/cool1.jpg) no-repeat center center/cover;
+//                 }
+//                 .linus {
+//                     background: url(/styles/img/cool3.jpg) no-repeat center center/cover;
+//                 }
+//                 .sarah {
+//                     background: url(/styles/img/people4bb.jpg) no-repeat center center/cover;
+//                 }
+//                 .Stephanie {
+//                     background: url(/styles/img/people4b.jpg) no-repeat center center/cover;
+//                 }
+//                 .force {
+//                     background: url(/styles/img/office.jpg) no-repeat center center/cover;
+//                 }
+//                 .donald {
+//                     background: url(/styles/img/blackhome.jpg) no-repeat center center/cover;
+//                 }
+//                 .joyce {
+//                     background: url(/styles/img/people5.jpg) no-repeat center center/cover;
+//                 }
+//                 .family {
+//                     background: url(/styles/img/family.jpg) no-repeat center center/cover;
+//                 }
+//                 .mobile-none-1 {
+//                     @media screen and (min-width: 400px) {
+//                         display: flex !important;
+//                     }
+//                 }
+//                 .mobile-none-2 {
+//                     @media screen and (min-width: 500px) {
+//                         display: flex !important;
+//                     }
+//                 }
+//                 .mobile-none-3 {
+//                     @media screen and (min-width: 600px) {
+//                         display: flex !important;
+//                     }
+//                 }
+//                 .mobile-none-4 {
+//                     @media screen and (min-width: 744px) {
+//                         display: flex !important;
+//                     }
+//                 }
+//                 .mobile-none-5 {
+//                     @media screen and (min-width: 876px) {
+//                         display: flex !important;
+//                     }
+//                 }
+//                 .story {
+//                     border-radius: 1rem;
+//                     font-size: 0.75rem;
+//                     overflow: hidden;
+//                     &::before {
+//                         content: "";
+//                         width: 100%;
+//                         height: 5rem;
+//                         background: linear-gradient($transparent, $transparentblack);
+//                         position: absolute;
+//                         bottom: 0;
+//                     }
+//                     .profile-imgs {
+//                         img {
+//                             width: 2rem;
+//                             height: 2rem;
+//                             align-self: flex-start;
+//                             border: 3px solid $btn-color;
+//                         }
+//                     }
+//                 }
+//             }
+//             .Createpost {
+//                 background-color: $white;
+//                 padding: 0.4rem 1rem;
+//                 border-radius: 2rem;
+//                 .createinput {
+//                     font-family: $family;
+//                     background-color: $transparent;
+//                     margin-right: 1rem;
+//                     &:focus {
+//                         outline: none;
+//                         border: none;
+//                     }
+//                 }
+//             }
+//             .feeds {
+//                 .feed {
+//                     background-color: $white;
+//                     border-radius: 1rem;
+//                     margin: 1rem 0;
+//                     font-size: 0.85rem;
+//                     line-height: 1.5;
+//                     .mainPhoto {
+//                         overflow: hidden;
+//                         margin: 0.75rem 0;
+//                         img {
+//                             border-radius: 1rem;
+//                         }
+//                     }
+//                     .actionbuttons {
+//                         font-size: 1.4rem;
+//                         margin: 0.9rem;
+//                     }
+//                     .likebyupdate {
+//                         span {
+//                             width: 1.4rem;
+//                             height: 1.4rem;
+//                             display: block;
+//                             border-radius: 100%;
+//                             overflow: hidden;
+//                             border: 2px solid $white;
+//                             margin-left: -0.6rem;
+//                             &:first-child {
+//                                 margin: 0;
+//                             }
+//                         }
+//                         p {
+//                             margin-left: 0.5rem;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//         .rightSide {
+//             position: static;
+//             top: -18rem;
+//             bottom: 0;
+//             @media screen and (max-width: 939px) {
+//                 display: none;
+//             }
+//             .messagesarea {
+//                 background-color: $white;
+//                 border-radius: 1rem;
+//                 .messageCategory {
+//                     h6 {
+//                         border-bottom: 4px solid $bg2;
+//                         padding-bottom: 0.5rem;
+//                         font-size: 0.85rem;
+//                     }
+//                     .messageRequest {
+//                         color: $btn-color;
+//                     }
+//                     .active {
+//                         border-color: $black;
+//                     }
+//                 }
+//                 .message {
+//                     p {
+//                         font-size: 0.8rem;
+//                     }
+//                     .profile-imgs {
+//                         .active {
+//                             width: 0.8rem;
+//                             height: 0.8rem;
+//                             border-radius: 100%;
+//                             border: 3px solid $white;
+//                             position: absolute;
+//                             bottom: 0.2rem;
+//                             right: 0;
+//                             background-color: $success;
+//                         }
+//                     }
+//                 }
+//             }
+//             .friendRequest {
+//                 h4 {
+//                     color: $bg2;
+//                     margin: 1rem 0;
+//                 }
+//                 .request {
+//                     background-color: $white;
+//                     border-radius: 1rem;
+//                     margin-bottom: 0.7rem;
+//                     .requestInfo {
+//                         display: flex;
+//                         gap: 1rem;
+//                         margin-bottom: 1rem;
+//                     }
+//                     .btn {
+//                         font-weight: 600 !important;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+/* Slideshow container */
+// .slideshow-container {
+//     max-width: 1000px;
+//     position: relative;
+//     margin: auto;
+// }
+
+/* Hide the images by default */
+// .mySlides {
+//     display: none;
+// }
+
+/* Next & previous buttons */
+// .prev,
+// .next {
+//     cursor: pointer;
+//     position: absolute;
+//     top: 50%;
+//     width: auto;
+//     margin-top: -22px;
+//     padding: 16px;
+//     color: $white;
+//     font-weight: bold;
+//     font-size: 18px;
+//     transition: 0.6s ease;
+//     border-radius: 0 3px 3px 0;
+//     user-select: none;
+// }
+
+/* Position the "next button" to the right */
+// .next {
+//     right: 0;
+//     border-radius: 3px 0 0 3px;
+// }
+
+/* Fading animation */
+// .fade {
+//     animation-name: fade;
+//     animation-duration: 1.5s;
+// }
+
+// @keyframes fade {
+//     from {
+//         opacity: 0.4;
+//     }
+//     to {
+//         opacity: 1;
+//     }
+// }
+
+// .customizeTheme {
+//     place-items: center;
+//     background-color: $whitetransparency;
+//     width: 100vw !important;
+//     height: 100vh !important;
+//     font-size: 1rem;
+//     .card {
+//         background-color: $white;
+//         padding: 3rem;
+//         border-radius: 1rem;
+//         box-shadow: 0 0 1rem $bg1;
+//         @media screen and (max-width: 1200px) {
+//             width: 80vw;
+//         }
+//         @media screen and (max-width: 939px) {
+//             width: 92vw !important;
+//         }
+//         @media screen and (max-width: 500px) {
+//             width: 97% !important;
+//             padding: 20px;
+//             transform: translateX(-5px);
+//         }
+//         .fontSizeOption {
+//             margin-top: 5rem;
+//             & > div {
+//                 background-color: $place2;
+//                 padding: 0.7rem 2rem;
+//                 border-radius: 1rem;
+//             }
+//             .chooseSize {
+//                 background-color: $small;
+//                 height: 0.3rem;
+//                 margin: 0 1rem;
+//                 span {
+//                     width: 1rem;
+//                     height: 1rem;
+//                     background-color: $small;
+//                     border-radius: 100%;
+//                     cursor: pointer;
+//                     &.active {
+//                         background-color: $btn-color;
+//                     }
+//                 }
+//             }
+//         }
+//         .colorOption {
+//             margin-top: 2rem;
+//             .chooseColor {
+//                 background-color: $place2;
+//                 padding: 0.7rem 2rem;
+//                 border-radius: 1rem;
+//                 span {
+//                     width: 2.2rem;
+//                     height: 2.2rem;
+//                     border-radius: 100%;
+//                     &:nth-child(1) {
+//                         background-color: $bg1;
+//                     }
+//                     &:nth-child(2) {
+//                         background-color: $bg2b;
+//                     }
+//                     &:nth-child(3) {
+//                         background-color: $bg3;
+//                     }
+//                     &:nth-child(4) {
+//                         background-color: $bg4;
+//                     }
+//                     &:nth-child(5) {
+//                         background-color: $bg5;
+//                     }
+//                     &.active {
+//                         border: 5px solid $white;
+//                     }
+//                 }
+//             }
+//         }
+//         .bacgroungOption {
+//             margin-top: 2rem;
+//             .choose-bg {
+//                 @media screen and (max-width: 500px) {
+//                     gap: 12px;
+//                 }
+//                 & > div {
+//                     padding: 1rem;
+//                     width: 100%;
+//                     display: flex;
+//                     align-items: center;
+//                     font-weight: bold;
+//                     font-size: 1rem;
+//                     border-radius: 0.4rem;
+//                     @media screen and (max-width: 500px) {
+//                         padding: 3px;
+//                     }
+//                     &.active {
+//                         border: 2px solid $bg1;
+//                     }
+//                     span {
+//                         width: 2rem;
+//                         height: 2rem;
+//                         border: 2px solid $bg2;
+//                         border-radius: 100%;
+//                         margin-right: 1rem;
+//                     }
+//                 }
+//                 .bg-1 {
+//                     background-color: $white;
+//                     color: $black;
+//                 }
+//                 .bg-2 {
+//                     background-color: $homecolor1;
+//                     color: $white;
+//                 }
+//                 .bg-3 {
+//                     background-color: $darkcolor;
+//                     color: $white;
+//                     span {
+//                         @media screen and(max-width:400px) {
+//                             width: 2.5rem;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,499 @@
+.my-flexWorld {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pointer {
+    cursor: pointer;
+}
+.w-100 {
+    width: 100% !important;
+}
+.w-50 {
+    width: 50% !important;
+}
+.w-95 {
+    width: 95% !important;
+}
+.w-55 {
+    width: 55% !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+.w-4 {
+    width: 48px;
+}
+.w-3 {
+    width: 30px;
+}
+.fluid {
+    max-width: 100%;
+}
+.f-d-col {
+    flex-direction: column;
+}
+.f-d-row {
+    flex-direction: row;
+}
+.form-control {
+    flex-direction: column;
+    line-height: 35px;
+}
+.input-control {
+    height: 43px;
+    padding: 18px;
+    background-color: $transparent;
+    color: $white !important;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: $font2;
+    border-radius: 12px;
+    border-bottom: 2px solid $white;
+    @include media(800px) {
+        font-size: 18px;
+        height: 50px;
+    }
+    &::placeholder {
+        color: $white;
+    }
+    &:focus {
+        border: 2px solid $white;
+        border-radius: 12px;
+        outline: none;
+    }
+}
+.padding {
+    padding: 1em;
+}
+.p-2 {
+    padding: 2em;
+}
+.p-3 {
+    padding: 18px;
+}
+.padding-t-1 {
+    padding-top: 20px;
+}
+.padding-b-2 {
+    padding-bottom: 1vh !important;
+}
+.p-left-1 {
+    padding-left: 12px !important;
+}
+.p-left-2 {
+    padding-left: 18px !important;
+}
+.p-left-3 {
+    padding-left: 22px !important;
+}
+.p-left-4 {
+    padding-left: 26px !important;
+}
+.p-left-5 {
+    padding-left: 32px !important;
+}
+.margin-b-1 {
+    margin-bottom: 30px;
+}
+.margin-b-2 {
+    margin-bottom: 1rem;
+}
+.margin-b-4 {
+    margin-bottom: 15px;
+}
+.margin-b-5 {
+    margin-bottom: 10px;
+}
+.small-margin {
+    margin-left: 3px;
+}
+.margin-t-1 {
+    margin-top: 1em;
+}
+.margin-t-2 {
+    margin-top: 2.5em;
+}
+.margin-t-3 {
+    margin-top: 15px;
+}
+.margin-t-4 {
+    margin-top: 22px;
+}
+.margin-t-5 {
+    margin-top: 10px;
+}
+.margin-sides {
+    margin: 0 20px;
+}
+.main-p {
+    padding: 0 29px 0;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.text-justify {
+    text-align: justify;
+}
+.display-f {
+    display: flex;
+}
+.align-item-center {
+    align-items: center;
+}
+.align-item-end {
+    align-items: end;
+}
+.align-item-start {
+    align-items: start;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-start {
+    justify-content: start;
+    justify-self: start;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.justify-content-end {
+    justify-content: end;
+}
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.fixedPosition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1111;
+}
+.a {
+    text-decoration: none;
+    color: $white;
+}
+.rounded-ball {
+    border-radius: 100%;
+}
+.side-space {
+    padding: 0 80px;
+}
+.padding-tb-1 {
+    padding-top: 19px;
+    padding-bottom: 10px;
+}
+.display-n {
+    display: none;
+}
+.text-transform-Upper {
+    text-transform: uppercase;
+}
+.color-white {
+    color: $white;
+}
+.color-dark {
+    color: $black !important;
+}
+.font-1 {
+    font-size: 18px !important;
+    font-weight: 600;
+}
+.font-3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.font-4 {
+    font-size: 30px !important;
+    font-family: $family;
+    font-weight: 700;
+}
+.font-2 {
+    font-size: 12px;
+    font-weight: 600;
+}
+.font-5 {
+    font-size: 15px;
+    font-weight: 700;
+}
+.size-f {
+    font-size: 1.4rem;
+}
+.small-circle {
+    border-radius: 6px;
+}
+.small-circle-2 {
+    border-radius: 12px;
+}
+.medium-circle {
+    border-radius: 20px;
+}
+.success {
+    border-color: $success !important;
+    &:focus {
+        border-color: $success !important;
+    }
+}
+.errorp {
+    color: $errorCircle;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    @include media {
+        font-size: 14px;
+    }
+}
+.errorc {
+    color: $check;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    @include media {
+        font-size: 14px;
+    }
+}
+.error {
+    border-color: $error !important;
+    &:focus {
+        border-color: $error !important;
+    }
+}
+.show {
+    visibility: visible !important;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    @media screen and (max-width: 1200px) {
+        width: 96%;
+    }
+}
+.btn {
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: $white;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+    &:hover {
+        opacity: 0.8;
+    }
+}
+.btn-first {
+    background-color: $bg1;
+}
+
+.font-bold {
+    font-weight: 500;
+}
+.profile-img {
+    width: 2.7rem;
+    aspect-ratio: 1/1;
+    max-width: 100%;
+    &:hover {
+        cursor: pointer;
+    }
+}
+.text-muted {
+    color: $small;
+}
+.searchbar {
+    background: $bg2;
+    padding: 0.7rem 2rem;
+    margin-left: 1rem;
+    gap: 12px;
+    border-radius: 50px;
+
+    input {
+        background: $transparent;
+        font-size: 15px;
+        font-weight: 600;
+        color: $black;
+        width: 30vw;
+        &::placeholder {
+            font-family: $family;
+            color: $place;
+            font-weight: 500;
+        }
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+    i {
+        color: $place;
+    }
+}
+.text-bold {
+    font-weight: 500;
+    font-family: $font2;
+}
+.myboxshadow {
+    box-shadow: 0 0 1rem $bg1;
+}
+.bg-1 {
+    background-color: $bg;
+    color: $black;
+}
+.bg-2 {
+    background-color: $homecolor1;
+    color: $white;
+    .header {
+        background-color: $bg1b2;
+    }
+    .profile {
+        background-color: $bg1b2 !important;
+        color: $white !important;
+    }
+    .sideMenu {
+        background-color: $bg1b2 !important;
+    }
+    .notification-update {
+        background-color: $bg1b2 !important;
+        &::before {
+            background-color: $bg1b2 !important;
+        }
+    }
+    .Createpost {
+        background-color: $bg1b2 !important;
+        .createinput {
+            color: $white !important;
+            &::placeholder {
+                color: $white !important;
+            }
+        }
+    }
+    .feed {
+        background-color: $bg1b2 !important;
+    }
+    .messagesarea {
+        background-color: $bg1b2 !important;
+    }
+    .request {
+        background-color: $bg1b2 !important;
+    }
+    .searchbar {
+        background-color: $bg1b !important;
+        input {
+            color: $white !important;
+            &::placeholder {
+                color: $white !important;
+            }
+        }
+    }
+    .settings-help {
+        background-color: $bg1b2 !important;
+        h5 {
+            color: $white !important;
+        }
+        a {
+            color: $white !important;
+            font-weight: 500 !important;
+        }
+    }
+}
+.bg-3 {
+    background-color: $black;
+    color: $white;
+    .header {
+        background-color: $darkcolor;
+    }
+    .profile {
+        background-color: $darkcolor !important;
+        color: $white !important;
+    }
+    .sideMenu {
+        background-color: $darkcolor !important;
+    }
+    .notification-update {
+        background-color: $darkcolor !important;
+        &::before {
+            background-color: $darkcolor !important;
+        }
+    }
+    .Createpost {
+        background-color: $darkcolor !important;
+        .createinput {
+            color: $white !important;
+            &::placeholder {
+                color: $white !important;
+            }
+        }
+    }
+    .feed {
+        background-color: $darkcolor !important;
+    }
+    .messagesarea {
+        background-color: $darkcolor !important;
+    }
+    .request {
+        background-color: $darkcolor !important;
+    }
+    .searchbar {
+        background-color: $homecolor1 !important;
+        input {
+            color: $white !important;
+            &::placeholder {
+                color: $white !important;
+            }
+        }
+    }
+    .settings-help {
+        background-color: $darkcolor !important;
+        h5 {
+            color: $white !important;
+        }
+        a {
+            color: $white !important;
+            font-weight: 500 !important;
+        }
+    }
+}
+.d-f {
+    display: flex !important;
+}
+.display-block {
+    display: block !important;
+}
+.gap-1 {
+    gap: 2rem;
+}
+.gap-2 {
+    gap: 1rem;
+}
+.position-relative {
+    position: relative;
+}
+.height-m {
+    height: max-content;
+}
+.height-auto {
+    height: auto;
+}
+.max-w-n {
+    max-width: none !important;
+}
+.max-w-100 {
+    max-width: 100% !important;
+}
+.text-decoration-n {
+    text-decoration: none;
+}
+.width-fit {
+    width: fit-content;
+}
+.z-index-2 {
+    z-index: 2;
+}
+.max {
+    max-height: fit-content !important;
+}
