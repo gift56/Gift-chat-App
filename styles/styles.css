@@ -2241,7 +2241,6 @@ main .content .middleArea .feeds .feed {
 
 main .content .middleArea .feeds .feed .mainPhoto {
   position: relative;
-  z-index: -111 !important;
   margin: 0.75rem 0;
 }
 
