@@ -364,6 +364,13 @@ body {
           justify-content: center;
 }
 
+.gift {
+  color: #2f1c7c;
+  margin-left: 0.5rem;
+  font-weight: 600;
+  font-size: 15px;
+}
+
 .pointer {
   cursor: pointer;
 }
