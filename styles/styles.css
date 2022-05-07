@@ -972,6 +972,10 @@ body {
   font-weight: 500 !important;
 }
 
+.bg-2 .gift {
+  color: #ffffff !important;
+}
+
 .bg-3 {
   background-color: #000000;
   color: #ffffff;
@@ -1069,6 +1073,10 @@ body {
 .bg-3 .settings-help a {
   color: #ffffff !important;
   font-weight: 500 !important;
+}
+
+.bg-3 .gift {
+  color: #ffffff !important;
 }
 
 .d-f {
