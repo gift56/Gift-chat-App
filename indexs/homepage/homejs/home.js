@@ -162,19 +162,6 @@ bgActive.forEach(bord => {
     });
 });
 
-
-const removeText = () => {
-    changeMsgState.forEach(text => {
-        text.classList.remove('active');
-    })
-};
-changeMsgState.forEach(text => {
-    text.addEventListener('click', () => {
-        removeText();
-        text.classList.add('active');
-    });
-});
-
 Bg1.addEventListener('click', () => {
     document.body.classList.add('bg-1');
     document.body.classList.remove('bg-2');
@@ -188,4 +175,18 @@ Bg3.addEventListener('click', () => {
     document.body.classList.add('bg-3');
     document.body.classList.remove('bg-2');
     document.body.classList.remove('bg-1');
+});
+
+const removeText = () => {
+    changeMsgState.forEach(text => {
+        text.classList.remove('active');
+    })
+};
+
+
+changeMsgState.forEach(text => {
+    text.addEventListener('click', () => {
+        removeText();
+        text.classList.add('active');
+    });
 });
