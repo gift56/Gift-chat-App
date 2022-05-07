@@ -12,6 +12,75 @@ body {
   background-color: #ecf0f1;
 }
 
+.my-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 81vw;
+  line-height: 1.4;
+  padding: 10px 42px;
+}
+
+@media screen and (min-width: 500px) {
+  .my-small {
+    width: 52vw;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .my-small {
+    width: 45vw;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .my-small {
+    width: 39vw;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .my-small {
+    width: 34vw;
+  }
+}
+
+@media screen and (min-width: 886px) {
+  .my-small {
+    width: 32vw;
+  }
+}
+
+@media screen and (min-width: 942px) {
+  .my-small {
+    width: 28vw;
+  }
+}
+
+@media screen and (min-width: 1076px) {
+  .my-small {
+    width: 24vw;
+  }
+}
+
+@media screen and (min-width: 1258px) {
+  .my-small {
+    width: 21vw;
+  }
+}
+
+@media screen and (min-width: 1308px) {
+  .my-small {
+    width: 18vw;
+  }
+}
+
 .about h2 {
   color: #fff;
   font-size: 19px;
@@ -232,6 +301,8 @@ body {
   max-height: 0;
   -webkit-transition: max-height 0.8s linear;
   transition: max-height 0.8s linear;
+  -webkit-box-shadow: 0 0 1rem #000000;
+          box-shadow: 0 0 1rem #000000;
 }
 
 @media screen and (max-width: 1300px) {
@@ -2153,7 +2224,7 @@ main .content .middleArea .feeds .feed {
 }
 
 main .content .middleArea .feeds .feed .mainPhoto {
-  overflow: hidden;
+  position: relative;
   margin: 0.75rem 0;
 }
 

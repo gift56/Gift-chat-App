@@ -10,6 +10,41 @@ body {
     overflow-x: hidden;
     background-color: $bg;
 }
+.my-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 81vw;
+    line-height: 1.4;
+    padding: 10px 42px;
+    @media screen and (min-width: 500px) {
+        width: 52vw;
+    }
+    @media screen and (min-width: 580px) {
+        width: 45vw;
+    }
+    @media screen and (min-width: 670px) {
+        width: 39vw;
+    }
+    @media screen and (min-width: 772px) {
+        width: 34vw;
+    }
+    @media screen and (min-width: 886px) {
+        width: 32vw;
+    }
+    @media screen and (min-width: 942px) {
+        width: 28vw;
+    }
+    @media screen and (min-width: 1076px) {
+        width: 24vw;
+    }
+    @media screen and (min-width: 1258px) {
+        width: 21vw;
+    }
+    @media screen and (min-width: 1308px) {
+        width: 18vw;
+    }
+}
 .about {
     h2 {
         color: #fff;
@@ -142,10 +177,11 @@ body {
         line-height: 2;
         max-height: 0;
         transition: max-height 0.8s linear;
-        @media screen and (max-width:1300px) {
+        box-shadow: 0 0 1rem $black;
+        @media screen and (max-width: 1300px) {
             left: -240px;
         }
-        @media screen and (max-width:749px) {
+        @media screen and (max-width: 749px) {
             left: -210px;
         }
         a {
@@ -167,8 +203,8 @@ body {
             padding: 9px 13px;
             border-bottom: 1px solid $small;
         }
-        .log-out{
-            padding: 9px 13px; 
+        .log-out {
+            padding: 9px 13px;
         }
     }
 }

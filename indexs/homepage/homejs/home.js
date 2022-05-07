@@ -2,6 +2,7 @@ const menuItems = document.querySelectorAll(".menu-item");
 const NotificationnUpdate = document.querySelector('.notification-update');
 const NotificationnCount = document.querySelector('#notification .countNotification');
 const message = document.querySelectorAll('.message');
+const changeMsgState = document.querySelectorAll('.messageCategory h6');
 const Fontsize = document.querySelectorAll('.chooseSize span');
 var rightSide = document.querySelector('.rightSide');
 var leftSide = document.querySelector('.leftSide');
@@ -61,6 +62,7 @@ messageNotification.addEventListener('click', () => {
     setTimeout(() => {
         messagesareas.classList.remove('myboxshadow');
     }, 2000);
+
 })
 const openThemeModal = () => {
     themeCustomization.style.display = 'grid';
@@ -156,10 +158,22 @@ const removeBord = () => {
 bgActive.forEach(bord => {
     bord.addEventListener('click', () => {
         removeBord();
-        bord.classList.toggle('active');
-    })
+        bord.classList.add('active');
+    });
 });
 
+
+const removeText = () => {
+    changeMsgState.forEach(text => {
+        text.classList.remove('active');
+    })
+};
+changeMsgState.forEach(text => {
+    text.addEventListener('click', () => {
+        removeText();
+        text.classList.add('active');
+    });
+});
 
 Bg1.addEventListener('click', () => {
     document.body.classList.add('bg-1');
@@ -169,9 +183,9 @@ Bg1.addEventListener('click', () => {
 Bg2.addEventListener('click', () => {
     document.body.classList.add('bg-2');
     document.body.classList.remove('bg-1');
-})
+});
 Bg3.addEventListener('click', () => {
     document.body.classList.add('bg-3');
     document.body.classList.remove('bg-2');
     document.body.classList.remove('bg-1');
-})
+});
