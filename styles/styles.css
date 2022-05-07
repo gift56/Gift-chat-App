@@ -1837,6 +1837,7 @@ main .content .leftSide {
   position: -webkit-sticky;
   position: sticky;
   top: 5.2rem;
+  z-index: 1;
   right: -18rem;
 }
 
@@ -2010,9 +2011,9 @@ main .content .leftSide .notification-update {
   background-color: #ffffff;
   border-radius: 1rem;
   padding: 1rem;
-  -webkit-box-shadow: 0 0 2rem #f8225f, 75%, 60% 25%;
-          box-shadow: 0 0 2rem #f8225f, 75%, 60% 25%;
-  z-index: 8;
+  -webkit-box-shadow: 0 0 2rem;
+          box-shadow: 0 0 2rem;
+  z-index: 111111;
 }
 
 @media screen and (max-width: 939px) {
@@ -2240,6 +2241,7 @@ main .content .middleArea .feeds .feed {
 
 main .content .middleArea .feeds .feed .mainPhoto {
   position: relative;
+  z-index: -111 !important;
   margin: 0.75rem 0;
 }
 

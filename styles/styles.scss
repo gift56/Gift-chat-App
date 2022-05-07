@@ -482,6 +482,7 @@ main {
         .leftSide {
             position: sticky;
             top: 5.2rem;
+            z-index: 1;
             right: -18rem;
             @media screen and(max-width:1200px) {
                 width: 5rem;
@@ -604,8 +605,8 @@ main {
                 background-color: $white;
                 border-radius: 1rem;
                 padding: 1rem;
-                box-shadow: 0 0 2rem $btn-color, 75%, 60% 25%;
-                z-index: 8;
+                box-shadow: 0 0 2rem;
+                z-index: 111111;
                 @media screen and (max-width: 939px) {
                     position: absolute;
                     left: 26px;
@@ -774,6 +775,7 @@ main {
                     line-height: 1.5;
                     .mainPhoto {
                         position: relative;
+                        z-index: -111 !important;
                         margin: 0.75rem 0;
                         img {
                             border-radius: 1rem;
