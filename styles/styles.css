@@ -976,6 +976,10 @@ body {
   color: #ffffff !important;
 }
 
+.bg-2 .background-good {
+  background-color: #2f1c7c !important;
+}
+
 .bg-3 {
   background-color: #000000;
   color: #ffffff;
@@ -1077,6 +1081,10 @@ body {
 
 .bg-3 .gift {
   color: #ffffff !important;
+}
+
+.bg-3 .background-good {
+  background-color: #151221 !important;
 }
 
 .d-f {
