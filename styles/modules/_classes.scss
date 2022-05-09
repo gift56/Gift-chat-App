@@ -406,7 +406,7 @@
             font-weight: 500 !important;
         }
     }
-    .gift{
+    .gift {
         color: $white !important;
     }
 }
@@ -466,7 +466,7 @@
             font-weight: 500 !important;
         }
     }
-    .gift{
+    .gift {
         color: $white !important;
     }
 }
@@ -508,4 +508,9 @@
 }
 .max {
     max-height: fit-content !important;
+}
+.background-good {
+    @media screen and (max-width: 939px) {
+        background-color: $white !important;
+    }
 }

@@ -22,6 +22,7 @@ const Height = () => {
     leftSides.classList.toggle('height');
     side.classList.toggle("display-block");
     Proboy.classList.toggle("d-f");
+    leftSide.classList.toggle("background-good");
 }
 
 icon.addEventListener('click', Height);

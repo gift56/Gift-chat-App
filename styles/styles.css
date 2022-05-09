@@ -1139,6 +1139,12 @@ body {
   max-height: fit-content !important;
 }
 
+@media screen and (max-width: 939px) {
+  .background-good {
+    background-color: #ffffff !important;
+  }
+}
+
 .loader {
   background-color: #ecf0f1;
 }
@@ -1853,13 +1859,13 @@ main .content .leftSide {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    position: fixed;
+    position: absolute;
     right: 0;
     width: 100%;
-    -webkit-transform: translateY(-18px);
-            transform: translateY(-18px);
-    background-color: #ffffff;
-    max-height: 0;
+    -webkit-transform: translateY(-98px);
+            transform: translateY(-98px);
+    background-color: none !important;
+    min-height: 120vh;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
   }

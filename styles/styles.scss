@@ -18,12 +18,12 @@
         left: 215px;
     }
 }
- .completed {
-     animation: complete 1s forwards;
-  }
- @keyframes complete {
-     100% {
-         opacity: 0;
+.completed {
+    animation: complete 1s forwards;
+}
+@keyframes complete {
+    100% {
+        opacity: 0;
         visibility: hidden;
     }
 }
@@ -490,14 +490,15 @@ main {
             }
             @media screen and(max-width:939px) {
                 display: flex;
-                position: fixed;
+                position: absolute;
                 right: 0;
                 width: 100%;
-                transform: translateY(-18px);
-                background-color: $white;
-                max-height: 0;
+                transform: translateY(-98px);
+                background-color: none !important;
+                min-height: 120vh;
                 transition: all 300ms ease;
             }
+
             .profile {
                 background-color: $white;
                 color: $homecolor1;
