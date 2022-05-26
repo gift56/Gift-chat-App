@@ -149,7 +149,6 @@ colorChange.forEach(color => {
         customizeShadow.style.boxShadow = `0 0 1rem ${myColorhex}`;
     })
 })
-
 const removeBord = () => {
     bgActive.forEach(bord => {
         bord.classList.remove('active');
