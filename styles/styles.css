@@ -2092,7 +2092,7 @@ main .content .middleArea .stories .slid2 {
 }
 
 main .content .middleArea .stories .slidefirst {
-  background: url(/styles/img/image3.jpg) no-repeat center/cover;
+  background: url(/styles/img/Fb.jpg) no-repeat left/cover;
 }
 
 main .content .middleArea .stories .slidesecond {
@@ -2112,7 +2112,7 @@ main .content .middleArea .stories .Willams1 {
 }
 
 main .content .middleArea .stories .none2 {
-  display: none !important;
+  display: none;
 }
 
 main .content .middleArea .stories .pic1 {
@@ -2356,9 +2356,9 @@ main .content .rightSide .friendRequest .request .btn {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  max-width: 1000px !important;
+  position: relative !important;
+  margin: auto !important;
 }
 
 /* Hide the images by default */
@@ -2370,52 +2370,70 @@ main .content .rightSide .friendRequest .request .btn {
 .prev,
 .next {
   cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 18px;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  position: absolute !important;
+  top: 50% !important;
+  width: auto !important;
+  margin-top: -22px !important;
+  padding: 16px !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  -webkit-transition: 0.6s ease !important;
+  transition: 0.6s ease !important;
+  border-radius: 0 3px 3px 0 !important;
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+  right: 0 !important;
+  border-radius: 3px 0 0 3px !important;
+}
+
+.dot {
+  visibility: hidden;
+  position: absolute;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-          animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  -webkit-animation-name: fade !important;
+          animation-name: fade !important;
+  -webkit-animation-duration: 1.5s !important;
+          animation-duration: 1.5s !important;
 }
 
 @-webkit-keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.4 !important;
   }
   to {
-    opacity: 1;
+    opacity: 1 !important;
   }
 }
 
 @keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.4 !important;
   }
   to {
-    opacity: 1;
+    opacity: 1 !important;
   }
 }
 
