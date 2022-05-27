@@ -2314,6 +2314,7 @@ main .content .rightSide .messagesarea .messageCategory .messageRequest {
 
 main .content .rightSide .messagesarea .messageCategory .active {
   border-color: #000000;
+  background: transparent !important;
 }
 
 main .content .rightSide .messagesarea .message p {
