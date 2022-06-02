@@ -50,7 +50,7 @@ let checkValidity = () => {
     }
     return validEmail && validPassword
 }
-function checkValidation() {
+const checkValidation = () => {
     let homePages = '/indexs/homepage/home.html';
 
     checkValidity() ? window.location.assign(homePages) : " "
